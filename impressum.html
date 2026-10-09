@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Impressum | Luzide</title>
+<style>
+@font-face{font-family:"Cormorant Garamond";font-weight:300;font-style:normal;font-display:swap;src:url("fonts/cormorant-garamond-latin-300-normal.woff2") format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-weight:400;font-style:normal;font-display:swap;src:url("fonts/cormorant-garamond-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Space Grotesk";font-weight:400;font-style:normal;font-display:swap;src:url("fonts/space-grotesk-latin-400-normal.woff2") format("woff2")}
+:root{--bg:#0F0B09;--text:#F2E9DA;--accent:#B08A57}
+*{box-sizing:border-box}
+html{background:var(--bg);color:var(--text);-webkit-text-size-adjust:100%}
+body{margin:0;padding:1.5rem 1.25rem 4rem;background:var(--bg);color:var(--text);font-family:"Space Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-weight:400;font-size:1rem;line-height:1.65}
+main,.leiste,.fuss{max-width:72ch;margin:0 auto}
+.leiste{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.75rem 1.5rem;margin-bottom:2.5rem;font-size:.95rem}
+a{color:var(--accent);text-underline-offset:.15em;overflow-wrap:anywhere}
+a:hover{color:var(--text)}
+a:focus-visible{outline:2px solid var(--text);outline-offset:3px;border-radius:2px}
+.sprache a[aria-current="true"]{color:var(--text);text-decoration:none;font-weight:700}
+.sprache span{color:var(--accent);padding:0 .35em}
+h1,h2,h3,h4{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-weight:400;line-height:1.2;color:var(--text)}
+h1{font-weight:300;font-size:clamp(2rem,6vw,2.75rem);margin:0 0 1.5rem}
+h2{font-size:1.75rem;margin:2.5rem 0 .75rem}
+h3{font-size:1.4rem;margin:2rem 0 .5rem}
+h4{font-size:1.2rem;margin:1.5rem 0 .5rem}
+h2,h3{color:var(--accent)}
+p,ul,ol{margin:0 0 1rem}
+ul,ol{padding-left:1.4rem}
+li{margin-bottom:.5rem}
+li::marker{color:var(--accent)}
+strong{font-weight:700}
+mark.offen{background:var(--accent);color:var(--bg);font-weight:700;padding:.05em .35em;border-radius:2px}
+.hinweis{border-left:3px solid var(--accent);padding:.25rem 0 .25rem 1rem;margin:0 0 2rem}
+address{font-style:normal;margin:0 0 1rem}
+.fuss{margin-top:3.5rem;padding-top:1.25rem;border-top:1px solid var(--accent);font-size:.95rem}
+.fuss a{display:inline-block;margin-right:1.25rem}
+.fassung[lang="en"]{display:none}
+html.en .fassung[lang="de"]{display:none}
+html.en .fassung[lang="en"]{display:block}
+</style>
+<script>(function(){try{var l=new URLSearchParams(location.search).get("lang");if(l==="en"){var d=document.documentElement;d.className="en";d.lang="en";var t=document.querySelector('.fassung[lang="en"]');if(t&&t.getAttribute("data-title")){document.title=t.getAttribute("data-title");}}}catch(e){}})();</script>
+</head>
+<body>
+<div class="fassung" lang="de" data-title="Impressum | Luzide">
+<div class="leiste"><a href="index.html">Zurück zu Luzide</a><nav class="sprache" aria-label="Sprache"><a href="?lang=de" aria-current="true" lang="de" hreflang="de">DE</a><span aria-hidden="true">|</span><a href="?lang=en" lang="en" hreflang="en">EN</a></nav></div>
+<main>
+<h1>Impressum</h1>
+<p>Angaben gemäß § 5 DDG</p>
+<address>Joobin Khavand (Einzelunternehmer)<br>Flensburgstraße 4<br>58093 Hagen</address>
+<h2>Kontakt</h2>
+<p>E-Mail: <a href="mailto:luzide.app@gmail.com">luzide.app@gmail.com</a></p>
+<h2>Weitere Angaben</h2>
+<p><mark class="offen">[UMSATZSTEUER-IDENTIFIKATIONSNUMMER ODER HINWEIS EINSETZEN]</mark></p>
+<p><mark class="offen">[ANGABEN ZUR VERBRAUCHERSTREITBEILEGUNG EINSETZEN]</mark></p>
+<p><mark class="offen">[WEITERE ANGABEN NACH § 5 DDG EINSETZEN, FALLS ZUTREFFEND]</mark></p>
+</main>
+<nav class="fuss" aria-label="Rechtliches"><a href="datenschutz.html">Datenschutz</a><a href="nutzungsbedingungen.html">Nutzungsbedingungen</a><a href="konto-loeschen.html">Konto löschen</a></nav>
+</div>
+<div class="fassung" lang="en" data-title="Legal notice | Luzide">
+<div class="leiste"><a href="index.html">Back to Luzide</a><nav class="sprache" aria-label="Language"><a href="?lang=de" lang="de" hreflang="de">DE</a><span aria-hidden="true">|</span><a href="?lang=en" aria-current="true" lang="en" hreflang="en">EN</a></nav></div>
+<main>
+<p class="hinweis">This page is currently available in German only. The German version applies.</p>
+<div lang="de">
+<h1>Impressum</h1>
+<p>Angaben gemäß § 5 DDG</p>
+<address>Joobin Khavand (Einzelunternehmer)<br>Flensburgstraße 4<br>58093 Hagen</address>
+<h2>Kontakt</h2>
+<p>E-Mail: <a href="mailto:luzide.app@gmail.com">luzide.app@gmail.com</a></p>
+<h2>Weitere Angaben</h2>
+<p><mark class="offen">[UMSATZSTEUER-IDENTIFIKATIONSNUMMER ODER HINWEIS EINSETZEN]</mark></p>
+<p><mark class="offen">[ANGABEN ZUR VERBRAUCHERSTREITBEILEGUNG EINSETZEN]</mark></p>
+<p><mark class="offen">[WEITERE ANGABEN NACH § 5 DDG EINSETZEN, FALLS ZUTREFFEND]</mark></p>
+</div>
+</main>
+<nav class="fuss" aria-label="Legal"><a href="datenschutz.html?lang=en">Privacy policy</a><a href="nutzungsbedingungen.html?lang=en">Terms of use</a><a href="konto-loeschen.html?lang=en">Delete account</a></nav>
+</div>
+</body>
+</html>

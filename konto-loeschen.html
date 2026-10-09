@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Konto löschen | Luzide</title>
+<style>
+@font-face{font-family:"Cormorant Garamond";font-weight:300;font-style:normal;font-display:swap;src:url("fonts/cormorant-garamond-latin-300-normal.woff2") format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-weight:400;font-style:normal;font-display:swap;src:url("fonts/cormorant-garamond-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Space Grotesk";font-weight:400;font-style:normal;font-display:swap;src:url("fonts/space-grotesk-latin-400-normal.woff2") format("woff2")}
+:root{--bg:#0F0B09;--text:#F2E9DA;--accent:#B08A57}
+*{box-sizing:border-box}
+html{background:var(--bg);color:var(--text);-webkit-text-size-adjust:100%}
+body{margin:0;padding:1.5rem 1.25rem 4rem;background:var(--bg);color:var(--text);font-family:"Space Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-weight:400;font-size:1rem;line-height:1.65}
+main,.leiste,.fuss{max-width:72ch;margin:0 auto}
+.leiste{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.75rem 1.5rem;margin-bottom:2.5rem;font-size:.95rem}
+a{color:var(--accent);text-underline-offset:.15em;overflow-wrap:anywhere}
+a:hover{color:var(--text)}
+a:focus-visible{outline:2px solid var(--text);outline-offset:3px;border-radius:2px}
+.sprache a[aria-current="true"]{color:var(--text);text-decoration:none;font-weight:700}
+.sprache span{color:var(--accent);padding:0 .35em}
+h1,h2,h3,h4{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-weight:400;line-height:1.2;color:var(--text)}
+h1{font-weight:300;font-size:clamp(2rem,6vw,2.75rem);margin:0 0 1.5rem}
+h2{font-size:1.75rem;margin:2.5rem 0 .75rem}
+h3{font-size:1.4rem;margin:2rem 0 .5rem}
+h4{font-size:1.2rem;margin:1.5rem 0 .5rem}
+h2,h3{color:var(--accent)}
+p,ul,ol{margin:0 0 1rem}
+ul,ol{padding-left:1.4rem}
+li{margin-bottom:.5rem}
+li::marker{color:var(--accent)}
+strong{font-weight:700}
+mark.offen{background:var(--accent);color:var(--bg);font-weight:700;padding:.05em .35em;border-radius:2px}
+.hinweis{border-left:3px solid var(--accent);padding:.25rem 0 .25rem 1rem;margin:0 0 2rem}
+address{font-style:normal;margin:0 0 1rem}
+.fuss{margin-top:3.5rem;padding-top:1.25rem;border-top:1px solid var(--accent);font-size:.95rem}
+.fuss a{display:inline-block;margin-right:1.25rem}
+.fassung[lang="en"]{display:none}
+html.en .fassung[lang="de"]{display:none}
+html.en .fassung[lang="en"]{display:block}
+</style>
+<script>(function(){try{var l=new URLSearchParams(location.search).get("lang");if(l==="en"){var d=document.documentElement;d.className="en";d.lang="en";var t=document.querySelector('.fassung[lang="en"]');if(t&&t.getAttribute("data-title")){document.title=t.getAttribute("data-title");}}}catch(e){}})();</script>
+</head>
+<body>
+<div class="fassung" lang="de" data-title="Konto löschen | Luzide">
+<div class="leiste"><a href="index.html">Zurück zu Luzide</a><nav class="sprache" aria-label="Sprache"><a href="?lang=de" aria-current="true" lang="de" hreflang="de">DE</a><span aria-hidden="true">|</span><a href="?lang=en" lang="en" hreflang="en">EN</a></nav></div>
+<main>
+<h1>Konto und Daten löschen</h1>
+<h2>So löschst du dein Konto in der App</h2>
+<ol>
+<li>Öffne Luzide und tippe auf dem Startbildschirm oben rechts auf das <strong>Zahnrad</strong> (Einstellungen).</li>
+<li>Scrolle zum Abschnitt <strong>KONTO &amp; DATEN</strong>.</li>
+<li>Tippe auf <strong>Account komplett löschen</strong>.</li>
+<li>Lies die Liste dessen, was gelöscht wird, und tippe auf <strong>Weiter</strong>.</li>
+<li>Tippe <strong>LÖSCHEN</strong> ein und tippe auf <strong>Endgültig löschen</strong>.</li>
+</ol>
+<p>Während einer laufenden Traumreise ist das Löschen gesperrt. Beende sie zuerst.</p>
+<p>Lass die App geöffnet, bis die Bestätigung erscheint. Wird die App dabei geschlossen oder fehlt die Verbindung, setzt Luzide die Löschung beim nächsten Start fort.</p>
+<p>Google verlangt beim Löschen des Kontos manchmal eine frische Anmeldung. Dann bittet dich Luzide, dich noch einmal mit Google anzumelden. Deine Daten sind zu diesem Zeitpunkt bereits gelöscht; erst danach wird das Konto selbst entfernt. Brichst du die Anmeldung ab, bleibt das Konto bestehen, und Luzide zeigt einen Hinweis mit <strong>Jetzt anmelden</strong>, auch beim nächsten Start.</p>
+<p>Möchtest du nur deine Daten löschen und dein Konto behalten, wähle in Schritt 3 <strong>Alle Daten löschen</strong>. Danach wirst du abgemeldet und kannst neu beginnen.</p>
+<h2>Was gelöscht wird</h2>
+<ul>
+<li>alle Traumreisen mit allen Messdaten (Puls, Herzschlag-Abstände, Bewegung, Temperatur, Atmung) und allen Protokollen</li>
+<li>dein Traumtagebuch, deine Traumzeichen und alle Auswertungen dazu</li>
+<li>dein persönliches Schlafmodell samt Sicherungen</li>
+<li>dein Profil, deine Fragebogen-Antworten, dein Schlafprofil, deine Statistiken und deine Einstellungen</li>
+<li>die Daten der Luzide-App auf diesem Handy (Dateien, eigene Aufnahmen, Diktat-Reste, Einstellungen, lokaler Datenbank-Zwischenspeicher)</li>
+<li>die Daten der Luzide-App auf deiner Uhr, sobald die Uhr verbunden und keine Traumreise aktiv ist</li>
+<li>bei <strong>Account komplett löschen</strong> zusätzlich dein Konto und deine Anmeldung</li>
+</ul>
+<p>Die Löschung kann nicht rückgängig gemacht werden.</p>
+<h2>Was nicht gelöscht wird</h2>
+<ul>
+<li><strong>Kaufdaten werden beim Löschen deines Kontos nicht automatisch entfernt.</strong> Das betrifft zwei Stellen:<ul>
+<li><strong>Google Play:</strong> Käufe und Abos schließt du bei Google Play ab, und Google speichert sie in deinem Google-Konto. Ein laufendes Abo kündigst du dort getrennt (Google Play, Profil, Zahlungen &amp; Abos); die Löschung in Luzide kündigt es nicht. Deine Käufe siehst du in deinem Google-Konto unter <strong>Zahlungen &amp; Abos</strong>. Fragen zu diesen Daten oder ihrer Löschung richtest du an Google.</li>
+<li><strong>RevenueCat</strong>, unser Dienst zur Kaufprüfung: dort bleiben deine Käufe unter deiner Nutzerkennung gespeichert. Möchtest du sie löschen lassen, schreib uns an <strong><a href="mailto:luzide.app@gmail.com">luzide.app@gmail.com</a></strong>. Wir löschen dann deinen Eintrag bei RevenueCat. Ein laufendes Abo wird dadurch nicht gekündigt.</li>
+</ul></li>
+<li><strong>Absturzberichte</strong> (Firebase Crashlytics) sind nicht mit deinem Konto verknüpft. Google löscht sie nach 90 Tagen. Du kannst sie in den Einstellungen unter "Absturzberichte senden" abschalten.</li>
+<li><strong>Daten in Samsung Health und Health Connect</strong> verwaltest du dort. Luzide liest sie nur.</li>
+</ul>
+<h2>Fristen</h2>
+<p>Die Löschung in der App geschieht sofort. Bei unseren Dienstleistern verschwinden gelöschte Daten danach auch aus deren Sicherungssystemen: bei Google laut eigener Angabe innerhalb von höchstens rund 180 Tagen.</p>
+<p>Seit dem 06.10.2026 liegen deine Daten in einer Datenbank in der EU. Die frühere Datenbank in den USA bleibt bis zum 20.10.2026 als Sicherung stehen und wird an diesem Tag vollständig gelöscht. Löschst du dein Konto vor diesem Tag, verschwinden deine Daten in der EU sofort; die Kopie in der früheren Datenbank verschwindet spätestens am 20.10.2026.</p>
+<h2>Löschen ohne App</h2>
+<p>Wenn du die App nicht mehr installiert hast, schreib uns von der E-Mail-Adresse deines Google-Kontos an:</p>
+<p><strong><a href="mailto:luzide.app@gmail.com">luzide.app@gmail.com</a></strong></p>
+<p>Wir löschen dein Konto und alle Daten unverzüglich, spätestens innerhalb eines Monats (Art. 12 Abs. 3 DSGVO), und bestätigen dir die Löschung per E-Mail.</p>
+</main>
+<nav class="fuss" aria-label="Rechtliches"><a href="datenschutz.html">Datenschutz</a><a href="nutzungsbedingungen.html">Nutzungsbedingungen</a><a href="impressum.html">Impressum</a></nav>
+</div>
+<div class="fassung" lang="en" data-title="Delete account | Luzide">
+<div class="leiste"><a href="index.html">Back to Luzide</a><nav class="sprache" aria-label="Language"><a href="?lang=de" lang="de" hreflang="de">DE</a><span aria-hidden="true">|</span><a href="?lang=en" aria-current="true" lang="en" hreflang="en">EN</a></nav></div>
+<main>
+<p class="hinweis">This page is currently available in German only. The German version applies.</p>
+<div lang="de">
+<h1>Konto und Daten löschen</h1>
+<h2>So löschst du dein Konto in der App</h2>
+<ol>
+<li>Öffne Luzide und tippe auf dem Startbildschirm oben rechts auf das <strong>Zahnrad</strong> (Einstellungen).</li>
+<li>Scrolle zum Abschnitt <strong>KONTO &amp; DATEN</strong>.</li>
+<li>Tippe auf <strong>Account komplett löschen</strong>.</li>
+<li>Lies die Liste dessen, was gelöscht wird, und tippe auf <strong>Weiter</strong>.</li>
+<li>Tippe <strong>LÖSCHEN</strong> ein und tippe auf <strong>Endgültig löschen</strong>.</li>
+</ol>
+<p>Während einer laufenden Traumreise ist das Löschen gesperrt. Beende sie zuerst.</p>
+<p>Lass die App geöffnet, bis die Bestätigung erscheint. Wird die App dabei geschlossen oder fehlt die Verbindung, setzt Luzide die Löschung beim nächsten Start fort.</p>
+<p>Google verlangt beim Löschen des Kontos manchmal eine frische Anmeldung. Dann bittet dich Luzide, dich noch einmal mit Google anzumelden. Deine Daten sind zu diesem Zeitpunkt bereits gelöscht; erst danach wird das Konto selbst entfernt. Brichst du die Anmeldung ab, bleibt das Konto bestehen, und Luzide zeigt einen Hinweis mit <strong>Jetzt anmelden</strong>, auch beim nächsten Start.</p>
+<p>Möchtest du nur deine Daten löschen und dein Konto behalten, wähle in Schritt 3 <strong>Alle Daten löschen</strong>. Danach wirst du abgemeldet und kannst neu beginnen.</p>
+<h2>Was gelöscht wird</h2>
+<ul>
+<li>alle Traumreisen mit allen Messdaten (Puls, Herzschlag-Abstände, Bewegung, Temperatur, Atmung) und allen Protokollen</li>
+<li>dein Traumtagebuch, deine Traumzeichen und alle Auswertungen dazu</li>
+<li>dein persönliches Schlafmodell samt Sicherungen</li>
+<li>dein Profil, deine Fragebogen-Antworten, dein Schlafprofil, deine Statistiken und deine Einstellungen</li>
+<li>die Daten der Luzide-App auf diesem Handy (Dateien, eigene Aufnahmen, Diktat-Reste, Einstellungen, lokaler Datenbank-Zwischenspeicher)</li>
+<li>die Daten der Luzide-App auf deiner Uhr, sobald die Uhr verbunden und keine Traumreise aktiv ist</li>
+<li>bei <strong>Account komplett löschen</strong> zusätzlich dein Konto und deine Anmeldung</li>
+</ul>
+<p>Die Löschung kann nicht rückgängig gemacht werden.</p>
+<h2>Was nicht gelöscht wird</h2>
+<ul>
+<li><strong>Kaufdaten werden beim Löschen deines Kontos nicht automatisch entfernt.</strong> Das betrifft zwei Stellen:<ul>
+<li><strong>Google Play:</strong> Käufe und Abos schließt du bei Google Play ab, und Google speichert sie in deinem Google-Konto. Ein laufendes Abo kündigst du dort getrennt (Google Play, Profil, Zahlungen &amp; Abos); die Löschung in Luzide kündigt es nicht. Deine Käufe siehst du in deinem Google-Konto unter <strong>Zahlungen &amp; Abos</strong>. Fragen zu diesen Daten oder ihrer Löschung richtest du an Google.</li>
+<li><strong>RevenueCat</strong>, unser Dienst zur Kaufprüfung: dort bleiben deine Käufe unter deiner Nutzerkennung gespeichert. Möchtest du sie löschen lassen, schreib uns an <strong><a href="mailto:luzide.app@gmail.com">luzide.app@gmail.com</a></strong>. Wir löschen dann deinen Eintrag bei RevenueCat. Ein laufendes Abo wird dadurch nicht gekündigt.</li>
+</ul></li>
+<li><strong>Absturzberichte</strong> (Firebase Crashlytics) sind nicht mit deinem Konto verknüpft. Google löscht sie nach 90 Tagen. Du kannst sie in den Einstellungen unter "Absturzberichte senden" abschalten.</li>
+<li><strong>Daten in Samsung Health und Health Connect</strong> verwaltest du dort. Luzide liest sie nur.</li>
+</ul>
+<h2>Fristen</h2>
+<p>Die Löschung in der App geschieht sofort. Bei unseren Dienstleistern verschwinden gelöschte Daten danach auch aus deren Sicherungssystemen: bei Google laut eigener Angabe innerhalb von höchstens rund 180 Tagen.</p>
+<p>Seit dem 06.10.2026 liegen deine Daten in einer Datenbank in der EU. Die frühere Datenbank in den USA bleibt bis zum 20.10.2026 als Sicherung stehen und wird an diesem Tag vollständig gelöscht. Löschst du dein Konto vor diesem Tag, verschwinden deine Daten in der EU sofort; die Kopie in der früheren Datenbank verschwindet spätestens am 20.10.2026.</p>
+<h2>Löschen ohne App</h2>
+<p>Wenn du die App nicht mehr installiert hast, schreib uns von der E-Mail-Adresse deines Google-Kontos an:</p>
+<p><strong><a href="mailto:luzide.app@gmail.com">luzide.app@gmail.com</a></strong></p>
+<p>Wir löschen dein Konto und alle Daten unverzüglich, spätestens innerhalb eines Monats (Art. 12 Abs. 3 DSGVO), und bestätigen dir die Löschung per E-Mail.</p>
+</div>
+</main>
+<nav class="fuss" aria-label="Legal"><a href="datenschutz.html?lang=en">Privacy policy</a><a href="nutzungsbedingungen.html?lang=en">Terms of use</a><a href="impressum.html?lang=en">Legal notice</a></nav>
+</div>
+</body>
+</html>

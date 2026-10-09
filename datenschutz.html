@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Datenschutz | Luzide</title>
+<style>
+@font-face{font-family:"Cormorant Garamond";font-weight:300;font-style:normal;font-display:swap;src:url("fonts/cormorant-garamond-latin-300-normal.woff2") format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-weight:400;font-style:normal;font-display:swap;src:url("fonts/cormorant-garamond-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Space Grotesk";font-weight:400;font-style:normal;font-display:swap;src:url("fonts/space-grotesk-latin-400-normal.woff2") format("woff2")}
+:root{--bg:#0F0B09;--text:#F2E9DA;--accent:#B08A57}
+*{box-sizing:border-box}
+html{background:var(--bg);color:var(--text);-webkit-text-size-adjust:100%}
+body{margin:0;padding:1.5rem 1.25rem 4rem;background:var(--bg);color:var(--text);font-family:"Space Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-weight:400;font-size:1rem;line-height:1.65}
+main,.leiste,.fuss{max-width:72ch;margin:0 auto}
+.leiste{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.75rem 1.5rem;margin-bottom:2.5rem;font-size:.95rem}
+a{color:var(--accent);text-underline-offset:.15em;overflow-wrap:anywhere}
+a:hover{color:var(--text)}
+a:focus-visible{outline:2px solid var(--text);outline-offset:3px;border-radius:2px}
+.sprache a[aria-current="true"]{color:var(--text);text-decoration:none;font-weight:700}
+.sprache span{color:var(--accent);padding:0 .35em}
+h1,h2,h3,h4{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-weight:400;line-height:1.2;color:var(--text)}
+h1{font-weight:300;font-size:clamp(2rem,6vw,2.75rem);margin:0 0 1.5rem}
+h2{font-size:1.75rem;margin:2.5rem 0 .75rem}
+h3{font-size:1.4rem;margin:2rem 0 .5rem}
+h4{font-size:1.2rem;margin:1.5rem 0 .5rem}
+h2,h3{color:var(--accent)}
+p,ul,ol{margin:0 0 1rem}
+ul,ol{padding-left:1.4rem}
+li{margin-bottom:.5rem}
+li::marker{color:var(--accent)}
+strong{font-weight:700}
+mark.offen{background:var(--accent);color:var(--bg);font-weight:700;padding:.05em .35em;border-radius:2px}
+.hinweis{border-left:3px solid var(--accent);padding:.25rem 0 .25rem 1rem;margin:0 0 2rem}
+address{font-style:normal;margin:0 0 1rem}
+.fuss{margin-top:3.5rem;padding-top:1.25rem;border-top:1px solid var(--accent);font-size:.95rem}
+.fuss a{display:inline-block;margin-right:1.25rem}
+.fassung[lang="en"]{display:none}
+html.en .fassung[lang="de"]{display:none}
+html.en .fassung[lang="en"]{display:block}
+</style>
+<script>(function(){try{var l=new URLSearchParams(location.search).get("lang");if(l==="en"){var d=document.documentElement;d.className="en";d.lang="en";var t=document.querySelector('.fassung[lang="en"]');if(t&&t.getAttribute("data-title")){document.title=t.getAttribute("data-title");}}}catch(e){}})();</script>
+</head>
+<body>
+<div class="fassung" lang="de" data-title="Datenschutz | Luzide">
+<div class="leiste"><a href="index.html">Zurück zu Luzide</a><nav class="sprache" aria-label="Sprache"><a href="?lang=de" aria-current="true" lang="de" hreflang="de">DE</a><span aria-hidden="true">|</span><a href="?lang=en" lang="en" hreflang="en">EN</a></nav></div>
+<main>
+<h1>Datenschutzerklärung für die App Luzide</h1>
+<p>Stand: 09.10.2026</p>
+<h2>1. Verantwortlicher</h2>
+<p>Joobin Khavand (Einzelunternehmer)</p>
+<p>Flensburgstraße 4, 58093 Hagen</p>
+<p>E-Mail: <a href="mailto:luzide.app@gmail.com">luzide.app@gmail.com</a></p>
+<p>Einen Datenschutzbeauftragten haben wir nicht benannt.</p>
+<h2>2. Das Wichtigste in Kürze</h2>
+<ul>
+<li>Luzide ist eine Trainings-App für luzides Träumen. Während einer Traumreise, die du selbst startest, verarbeitet Luzide Gesundheitsdaten (Herzfrequenz, Herzschlag-Abstände, Hauttemperatur, Bewegung), um Schlafphasen zu schätzen und dir im REM-Schlaf sanfte Reize zu geben.</li>
+<li>Dafür brauchen wir deine <strong>ausdrückliche Einwilligung</strong>. Ohne sie startet keine Traumreise und dein Tagebuch wird nicht gespeichert.</li>
+<li>Deine Angaben sind in zwei Stufen getrennt: die Pflicht-Einwilligung für die Kernfunktion und eine freiwillige Einwilligung für "Erweiterte Angaben" (Quiz, Gewohnheiten aus dem Onboarding und zusätzliche Fragen im Abend-Check-in). Die zweite ist nicht vorangekreuzt, jederzeit widerrufbar, und ein Widerruf löscht diese Angaben (3.2).</li>
+<li>Die Erkennung der Schlafphasen und das Training deines persönlichen Modells laufen <strong>auf deinem Handy</strong>.</li>
+<li>Gespeichert werden deine Daten in deinem Konto bei Google Firebase, die Gesundheits- und Traumdaten in der EU, die Kontodaten der Anmeldung in den USA (Abschnitt 5). Nur du hast über die App Zugriff auf dein Konto.</li>
+<li>Keine Werbung, kein Verkauf, keine Analyse-Dienste.</li>
+</ul>
+<h2>3. Welche Daten wir verarbeiten</h2>
+<h3>3.1 Konto und Anmeldung</h3>
+<ul>
+<li><strong>Google-Konto: E-Mail-Adresse, Google-Kennung, Firebase-Nutzerkennung (UID)</strong> · Zweck: Anmeldung, Zuordnung deiner Daten</li>
+</ul>
+<p>Die E-Mail-Adresse wird <strong>nicht</strong> in unsere Datenbank geschrieben, nur von Firebase Authentication verwaltet und in der App angezeigt. Ein Profilbild wird nicht gespeichert.</p>
+<h3>3.2 Profil und Fragebogen</h3>
+<p>Luzide trennt die Angaben in zwei Stufen. Stufe a gehört zur Kernfunktion und ist Teil der Pflicht-Einwilligung. Stufe b, die "Erweiterten Angaben", ist eine eigene, freiwillige Einwilligung.</p>
+<p><strong>a) Pflicht-Einwilligung (Kernfunktion)</strong></p>
+<p>Ohne diese Einwilligung startet keine Traumreise (siehe "Pflicht zur Bereitstellung"). Sie umfasst folgende Kategorien:</p>
+<ul>
+<li><strong>Konto und Profil:</strong> selbst gewählter Name, Sprache, Erfahrungsstufe, Ziel, Gerät, Verpflichtungsstufe, Geburtsdatum, biologisches Geschlecht und die Altersbestätigung.</li>
+<li><strong>Messwerte der Uhr:</strong> Herzfrequenz, Herzschlag-Abstände, Hauttemperatur und Handgelenk-Bewegung, nur während einer Traumreise, die du selbst startest (3.3).</li>
+<li><strong>Messwerte des Handys:</strong> Bewegung und Lage des Handys; nur wenn du die Atem-Erkennung einschaltest, daraus berechnete Atemwerte ohne Ton (3.3).</li>
+<li><strong>Schlafphasen aus Health Connect:</strong> wach, leicht, tief und REM aus Samsung Health, mit Angabe der liefernden App (3.4).</li>
+<li><strong>Berechnungen und Signal-Protokoll:</strong> berechnete Schlafphasen, welche Signale wann gegeben wurden, ob du geweckt wurdest, technische Diagnoseangaben zur Nacht sowie Mondphase und Lage des Handys (3.3).</li>
+<li><strong>Traumtagebuch:</strong> Einträge, Traumzeichen, gespeicherte Traumzeichen-Analyse, Absicht und Notizen zur Nacht (3.5).</li>
+<li><strong>Morgenangaben:</strong> Traumqualität, ob du dich erinnerst, Anzahl der Träume, ob ein Traum luzid war und wie klar, und ob deine Absicht gelang. Sie werden für die Signale und das Training deines persönlichen Modells gebraucht.</li>
+<li><strong>Modell und Fortschritt:</strong> dein persönliches Modell samt Sicherung, dein Schlafprofil, die Gesamtstatistik und dein Fortschritt im Lernweg (abgeschlossene Lektionen, bestandene Tore, Selbsteinschätzungen, Freischalt-Code) (3.7).</li>
+</ul>
+<p>Die meisten dieser Angaben sind <strong>Gesundheitsdaten</strong> im Sinne von Art. 9 DSGVO. Zweck: Schlafphasen erkennen, dir Signale geben, dein persönliches Modell trainieren und dir deine Auswertungen zeigen. Rechtsgrundlage ist deine ausdrückliche Einwilligung, Art. 9 Abs. 2 lit. a in Verbindung mit Art. 6 Abs. 1 lit. a DSGVO.</p>
+<p><strong>b) Freiwillige Einwilligung "Erweiterte Angaben"</strong></p>
+<p>Diese Einwilligung ist freiwillig. Das Kästchen ist nicht vorangekreuzt, und die Nutzung der App hängt nicht davon ab. Du kannst sie jederzeit widerrufen; der Widerruf löscht die Angaben dieser Stufe. Das Quiz steht nur PRO-Nutzern offen. Die Einwilligung umfasst:</p>
+<ul>
+<li><strong>Quiz, Schlaf und Träume:</strong> Dauer deines Schlafs, Einschlafzeit, Schlaftiefe, Aufwachen in der Nacht, Schlafens- und Aufwachzeiten, Chronotyp, Wochenende, Wiedereinschlafen, Wachheit nach dem Aufwachen, Wecker; Traumerinnerung, Traumtagebuch, wiederkehrende Träume, Erfahrung mit luziden Träumen; Albträume (Häufigkeit, Inhalt, Reaktion, luzide Albträume); Schlafparalyse (Erfahrung, Häufigkeit, Umgang).</li>
+<li><strong>Quiz, Motivation und Wahrnehmung:</strong> Vorstellungskraft, Wahrnehmung im Alltag, was dich am luziden Träumen reizt, dein erster luzider Traum, Hindernisse, Gewohnheiten, Achtsamkeit, Umfeld, Erwartung und ein Freitextfeld.</li>
+<li><strong>Quiz, Gewohnheiten und Umfeld:</strong> Koffein, Alkohol, Cannabis, Bildschirmzeit vor dem Schlafen, Sport, Schichtarbeit, Nickerchen, Bettpartner; Dunkelheit, Lautstärke, Temperatur, Schlafposition und Handy im Schlafzimmer.</li>
+<li><strong>Gewohnheiten aus dem Onboarding:</strong> Sport, Meditation, Koffein und Alkohol, jeweils ja oder nein. Ohne diese Einwilligung fragt das Onboarding sie nicht ab; mit dem Widerruf werden sie gelöscht.</li>
+<li><strong>Quiz, Gesundheitsangaben:</strong> Schlafstörungen (Schnarchen, diagnostizierte Schlafapnoe, Restless Legs, Zähneknirschen), Nahrungsergänzung und, wenn du als biologisches Geschlecht weiblich angegeben hast, der Einfluss des Menstruationszyklus.</li>
+<li><strong>Quiz, psychische Angaben:</strong> Stress, Dissoziation, ob du in psychotherapeutischer Behandlung bist, psychoaktive Medikamente, Gefühlsregulation und deine eigene Einschätzung, ob bei dir eine aktive Psychose, eine schwere Dissoziation oder ein akutes Trauma vorliegt.</li>
+<li><strong>Quiz, Rohantworten und Ergebnisse:</strong> Wir speichern alle Rohantworten im Wortlaut (auch das Freitextfeld) im Nutzerdokument, dazu einzelne daraus übernommene Felder, ein Archiv früherer Durchläufe (Zusammenfassung mit Profilsatz, Schlaftyp, Kanal, Antrieb, Blockade und Risiko) und die berechneten Ergebnisse (Schlaftyp, Kanal, Antrieb, Blockade, Erfahrungsstufe, Risikohinweis, Profilsatz, persönlicher Pfad, Startfenster für das geplante Wachwerden in der Nacht und deine Bestätigungen der Hinweise).</li>
+<li><strong>Abend-Check-in, zusätzliche Fragen:</strong> Stress, letzte Mahlzeit, Bildschirmzeit, Koffein, Alkohol, Sport, Meditation und emotionaler Tagesverlauf. Die Antworten werden mit der jeweiligen Nacht in deinem Konto gespeichert.</li>
+</ul>
+<p>Diese Angaben sind überwiegend <strong>Gesundheitsdaten</strong> im Sinne von Art. 9 DSGVO, die psychischen Angaben eingeschlossen. Zweck: Empfehlungen und Techniken an dich anpassen, Sicherheitshinweise geben und Modelle mit deinen Angaben füttern. Rechtsgrundlage ist deine eigene, ausdrückliche Einwilligung, Art. 9 Abs. 2 lit. a in Verbindung mit Art. 6 Abs. 1 lit. a DSGVO. Du kannst jede Frage unbeantwortet lassen.</p>
+<p>Ohne diese Einwilligung gibt es kein Quiz, keine Gewohnheitsangaben im Onboarding, der Abend-Check-in stellt nur die Pflichtfragen, und Modelle und Empfehlungen arbeiten mit Standardwerten. Widerrufst du sie, löscht Luzide das Quiz-Profil mit allen Rohantworten, das Archiv früherer Durchläufe, die daraus übernommenen Felder, die Gewohnheits-Schalter aus dem Onboarding und die zusätzlichen Antworten im Abend-Check-in.</p>
+<p><strong>Altersgrenze:</strong> Eine Traumreise startet nur ab 18 Jahren. Liegt ein Geburtsdatum unter 18 vor, ist der Start gesperrt; fehlt das Geburtsdatum, fragt die App einmalig "mindestens 18" ab. Die Bestätigung wird lokal je Nutzerkennung und im Nutzerdokument gespeichert. Andere Teile der App (z. B. das Tagebuch) sperrt die Altersgrenze nicht.</p>
+<h3>3.3 Messdaten während einer Traumreise</h3>
+<p>Erfasst nur während einer Traumreise, die du selbst startest.</p>
+<ul>
+<li><strong>Herzfrequenz</strong> · Quelle: Uhr: Samsung Health Sensor SDK, Ersatzweg Wear OS Health Services · Speicherort in Firestore: dreamNights/{id}/hrData (30-Sekunden-Mittel)</li>
+<li><strong>Herzschlag-Abstände (IBI)</strong> · Quelle: Uhr, Samsung Health Sensor SDK · Speicherort in Firestore: dreamNights/{id}/rrData (Rohreihe)</li>
+<li><strong>Hauttemperatur</strong> · Quelle: Uhr, Samsung Health Sensor SDK · Speicherort in Firestore: dreamNights/{id}/tempData</li>
+<li><strong>Handgelenk-Bewegung</strong> · Quelle: Uhr, Beschleunigungssensor · Speicherort in Firestore: dreamNights/{id}/motionData (Sekundenwerte)</li>
+<li><strong>Handy-Bewegung</strong> · Quelle: Handy, Beschleunigungs- und Lagesensor</li>
+<li><strong>Atmung (nur wenn eingeschaltet)</strong> · Quelle: Handy-Mikrofon, nur abgeleitete Werte · Speicherort in Firestore: dreamNights/{id}/breathData</li>
+<li><strong>Berechnete Schlafphasen, gegebene Reize, Protokolle</strong> · Quelle: App</li>
+</ul>
+<p>Die Speicherorte liegen jeweils unter users/{uid}/.</p>
+<p><strong>PPG-Rohdaten</strong> (Lichtsignal des Pulssensors) werden <strong>nicht</strong> erfasst. Die Herzwerte liefert der Sensor bereits fertig berechnet.</p>
+<p><strong>Zur Atemerkennung:</strong> Das Mikrofon läuft nur während einer aktiven Traumreise. Es wird kein Ton gespeichert, nur Atemfrequenz und Variabilität. Standardmäßig aus.</p>
+<p><strong>Samsung Health Sensor SDK:</strong> "The Samsung Health Sensor SDK does not share data with Samsung Health." (<a href="https://developer.samsung.com/health/sensor/faq.html" rel="noopener noreferrer">https://developer.samsung.com/health/sensor/faq.html</a>).</p>
+<p><strong>Uhr und Handy:</strong> Die Uhr speichert keine Messreihen dauerhaft und hat keine Verbindung zu Firebase; sie sendet über die Wearable Data Layer API an dein Handy.</p>
+<h3>3.4 Schlafdaten aus Health Connect</h3>
+<p>Wenn du es erlaubst, liest Luzide aus Health Connect deine Schlafsitzungen mit Schlafphasen (wach, leicht, tief, REM), und zwar <strong>nur die von Samsung Health</strong>. Luzide liest nur, es schreibt nichts nach Health Connect. Gespeichert im Nachtdokument. Zweck: Vergleich mit der eigenen Erkennung und Training deines persönlichen Modells.</p>
+<p><strong>Herkunft wird gespeichert (seit 05.10.2026):</strong> Zu jeder Nacht speichert Luzide, welche App wie viele Schlafabschnitte geliefert hat, also den Paketnamen der schreibenden App und eine Anzahl. Gespeichert im Nachtdokument und im Messprotokoll. Zweck: nachvollziehen, woher die Vergleichsdaten stammen.</p>
+<p><strong>Nur Samsung Health (seit 06.10.2026):</strong> Luzide liest und importiert aus Health Connect ausschließlich Schlafsitzungen, die Samsung Health geschrieben hat. Schlafdaten anderer Apps, die nach Health Connect schreiben, werden nicht gelesen. Beide Lesepfade fragen Health Connect mit diesem Herkunftsfilter ab. Die Herkunftszählung oben bleibt bestehen.</p>
+<h3>3.5 Traumtagebuch, Traumzeichen, Diktat</h3>
+<ul>
+<li><strong>Tagebucheinträge: Titel, Text, Datum, Stimmung, Traumqualität, Tags, luzide ja/nein, verknüpfte Nacht</strong></li>
+<li><strong>Traumzeichen: Name, Häufigkeit</strong></li>
+<li><strong>Gespeicherte Traumzeichen-Analyse: verworfene Vorschläge und Themen mit Zählerstand</strong></li>
+<li><strong>Absicht und Notizen zur Nacht; Abend-Check-in (Pflichtfragen)</strong></li>
+</ul>
+<p><strong>Abend-Check-in:</strong> Die Pflichtfragen gehören zur Pflicht-Einwilligung. Die zusätzlichen Fragen (Stress, letzte Mahlzeit, Bildschirmzeit, Koffein, Alkohol, Sport, Meditation, emotionaler Tagesverlauf) stellt der Check-in nur, wenn du in die Erweiterten Angaben eingewilligt hast (3.2 b). Der Check-in erscheint nur in den höheren Verpflichtungsstufen. Die Antworten werden mit der jeweiligen Nacht in deinem Konto gespeichert.</p>
+<p>Die Erkennung von Traumzeichen läuft auf dem Handy ohne Netz.</p>
+<p><strong>Diktat:</strong> Du kannst Einträge per Sprache diktieren.</p>
+<ul>
+<li>Hauptweg (Android 13 und neuer, mit installiertem Sprachpaket): die Erkennung läuft auf dem Handy. Für eine zweite, genauere Erkennung wird der Ton kurz als Datei auf dem Handy abgelegt und danach gelöscht; Reste älter als 24 Stunden löscht die App beim Start. Die Datei wird nie hochgeladen.</li>
+<li>Ersatzweg: die Spracherkennung deines Systems (meist Google). Dabei kann der Ton an Server des Anbieters gehen. Android dazu: "The implementation of this API is likely to stream audio to remote servers to perform speech recognition." (<a href="https://developer.android.com/reference/android/speech/SpeechRecognizer" rel="noopener noreferrer">https://developer.android.com/reference/android/speech/SpeechRecognizer</a>). Beim ersten Einsatz des Ersatzwegs zeigt die App einmalig einen Hinweis: "Dabei kann deine Sprache zur Erkennung online an diesen Dienst gesendet werden. Luzide selbst speichert dabei keine Aufnahme.". Erst nach "Verstanden, diktieren" startet der Ersatzweg; die Kenntnisnahme merkt sich die App je Gerät und Nutzerkennung. Der eigene Weg auf dem Gerät braucht keinen Hinweis und bleibt auf dem Handy.</li>
+</ul>
+<h3>3.6 Eigene Sprachaufnahme als Reiz</h3>
+<p>Wenn du für die Tages-Reize eine eigene Aufnahme machst, speichert Luzide sie als Datei nur auf deinem Handy. Sie wird nicht an die Uhr und nicht in die Cloud gesendet.</p>
+<h3>3.7 Persönliches Schlafmodell</h3>
+<p>Das Modell wird auf deinem Handy trainiert; die lokale Datei ist maßgeblich. Eine komprimierte Sicherungskopie liegt in deinem Konto unter users/{uid}/personalModel, damit es nach einem Gerätewechsel nicht verloren geht. Auf dem Handy werden höchstens 30 ältere Fassungen aufbewahrt.</p>
+<h3>3.8 Käufe</h3>
+<p>Für PRO nutzen wir den Abrechnungsdienst von Google Play und RevenueCat. Luzide meldet RevenueCat deine Firebase-UID als Kundenkennung. RevenueCat erhält von Google Play die Kaufhistorie: "RevenueCat collects a customer's purchase history" (<a href="https://www.revenuecat.com/docs/platform-resources/google-platform-resources/google-plays-data-safety" rel="noopener noreferrer">https://www.revenuecat.com/docs/platform-resources/google-platform-resources/google-plays-data-safety</a>). Zahlungsdaten (Karte, Konto) sehen wir nicht; sie bleiben bei Google Play.</p>
+<h3>3.9 Absturzberichte</h3>
+<p>In Release-Fassungen sendet die App Absturzberichte an Firebase Crashlytics, solange du das nicht abschaltest. Crashlytics erfasst laut Google "Crashlytics Installation UUIDs, Firebase installations ID, Crash traces, Breakpad minidump formatted data (NDK crashes only)" (<a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a>). Wir verknüpfen Berichte nicht mit deiner UID.</p>
+<p><strong>Abschalten:</strong> Einstellungen, Abschnitt "KONTO &amp; DATEN", Schalter "Absturzberichte senden". Standard: an. Die Wahl wird auf dem Handy gespeichert und wirkt beim Start und sofort beim Umschalten. In Debug-Fassungen sendet die App nie, unabhängig vom Schalter. Nach einer Löschung der Daten auf dem Handy steht der Schalter wieder auf dem Standard "an" (die Wahl liegt in den lokalen Einstellungen, die die Löschung leert).</p>
+<h3>3.10 Schriftarten</h3>
+<p>Alle Schriftarten sind in der App enthalten. Die App ruft keine Schriften von Google-Servern ab, dafür wird also auch keine IP-Adresse an Google übertragen. Fehlt eine Datei, bricht das Paket ab, statt still aus dem Netz zu laden. Die Schriften stehen unter der SIL Open Font License 1.1; die Lizenztexte sind im Lizenz-Bildschirm der App eingetragen.</p>
+<h3>3.11 Nachladbare Audio-Inhalte (gebaut, in der Store-Fassung aus)</h3>
+<p>Die Audio-Bibliothek ist gebaut, in der Store-Fassung aber ausgeschaltet. Der Speicherort ist entschieden: Firebase Storage in einer kostenlosen US-Region. Der Bucket ist noch nicht angelegt. Die App holt die Download-Adresse und legt die Dateien auf dem Handy im Support-Ordner ab.</p>
+<p>Die Einwilligung in Fassung 2 nennt diesen Abruf.</p>
+<h3>3.12 Freiwillige Datenspende (vorbereitet, heute ohne Übertragung)</h3>
+<p><strong>Heute wird nichts gespendet und nichts übertragen.</strong> Der Upload ist nicht gebaut und abgeschaltet. Er kommt erst, wenn Samsung die Weitergabe der Sensordaten schriftlich bestätigt hat. Gebaut ist nur die Einwilligung:</p>
+<ul>
+<li>Auf dem Einwilligungsbildschirm steht ein drittes, freiwilliges Kästchen "Datenspende (freiwillig)". Kästchen und Schalter erscheinen nur in Fassung 2 der Einwilligung. Es ist nicht vorausgewählt und keine Bedingung für die Nutzung: die Pflicht-Einwilligung gilt mit und ohne Spende.</li>
+<li>Die Zustimmung wird im Nutzerdokument mit Fassung, Zeitpunkt der Zustimmung und gegebenenfalls Zeitpunkt des Widerrufs gespeichert. Der Spende-Text hat eine eigene Fassung.</li>
+<li>Bei Zustimmung erzeugt die App eine Spender-Kennung: sp_ und 128 zufällige Bits. Sie liegt nur auf dem Handy in den lokalen Einstellungen, je Nutzerkennung, nicht in der Datenbank. Unter Einstellungen, "Datenschutz und Einwilligung" kannst du sie ansehen und kopieren.</li>
+<li>Widerruf: mit dem Schalter "Nächte spenden" unter "Datenschutz und Einwilligung". Die App setzt den Widerrufszeitpunkt und entfernt die Spender-Kennung vom Handy. Wer die Pflicht-Einwilligung widerruft, widerruft damit auch die Spende.</li>
+</ul>
+<p>Was eine Spende später enthalten soll, sagt der Text in der App: Messreihen von Uhr und Handy, Schlafphasen aus Samsung Health, ob Reize gegeben und ob du geweckt wurdest, Altersgruppe und Geschlecht, nie Tagebuch, Name, E-Mail oder Datum der Nacht. Diese Aussagen beschreiben einen Upload, den es noch nicht gibt. Dieser Abschnitt wird neu gefasst, sobald der Upload gebaut ist.</p>
+<h3>3.13 Beta-Auswertung</h3>
+<p>Nur in Testversionen für Beta-Tester fragt Luzide eine zusätzliche, freiwillige Einwilligung ab: die Beta-Auswertung. In der Store-Fassung ohne Tester-PRO gibt es sie nicht.</p>
+<ul>
+<li><strong>Was:</strong> Wenn du zustimmst, sieht Joobin Khavand als Betreiber deine Nachtdaten während des Beta-Tests ein und wertet sie aus, um die Traumerkennung und die Signale zu verbessern. Dazu gehören Herzrhythmus und Bewegung von der Uhr, Schlafphasen aus Health Connect, das Protokoll der Signale und deine Angaben am Morgen.</li>
+<li><strong>Was nicht:</strong> Deine Tagebuchtexte sind ausgenommen.</li>
+<li><strong>Freiwillig:</strong> Das Kästchen ist nicht vorausgewählt und keine Bedingung für die Nutzung: Pflicht-Einwilligung und Traumreise hängen nicht daran.</li>
+<li><strong>Wann gefragt wird:</strong> zusammen mit der Einwilligung, wenn du sie erneut erteilst, und sonst einmalig nach dem Update bzw. direkt nach dem ersten Onboarding.</li>
+<li>Auch ein "Nein" wird gespeichert, damit nicht erneut gefragt wird.</li>
+<li><strong>Dauer:</strong> nur für den Beta-Test, längstens bis 31.12.2026. Danach gilt die Zustimmung nicht mehr.</li>
+<li><strong>Gilt nur zusammen mit der Pflicht-Einwilligung</strong>: Wer die Pflicht-Einwilligung widerruft, widerruft damit auch die Beta-Auswertung. Wer danach erneut einwilligt, wird zur Beta-Auswertung neu gefragt, das Kästchen ist wieder leer; eine frühere Zustimmung lebt nicht wieder auf.</li>
+<li><strong>Widerruf:</strong> jederzeit unter Einstellungen, "Datenschutz und Einwilligung", Schalter "An der Beta-Auswertung teilnehmen". Ab dann endet die Auswertung. Die App funktioniert unverändert weiter.</li>
+<li><strong>Wie ausgewertet wird:</strong> Der Betreiber liest die Nachtdaten aus deinem Konto in der EU-Datenbank über die Google-Cloud-Schnittstelle mit seinem eigenen Zugang. Auszüge liegen nur auf seinem Rechner.</li>
+<li><strong>Löschfrist:</strong> Lokale Auszüge der Beta-Auswertung werden spätestens am 31.12.2026 gelöscht. Zusammengefasste Kennzahlen ohne Bezug auf einzelne Tester können darüber hinaus bestehen bleiben. Die Nachtdaten in deinem Konto selbst bleiben, bis du sie löschst (Abschnitt 7). Eine Löschanfrage gilt auch für diese Auszüge auf dem Rechner des Betreibers: Sie werden dort ebenfalls gelöscht.</li>
+<li><strong>Abgrenzung zur Datenspende (3.12):</strong> Die Beta-Auswertung betrifft deine Nächte in deinem Konto während des Beta-Tests. Die Datenspende ist davon unabhängig und betrifft die pseudonymisierte Weitergabe von Nächten für die Zeit nach der Beta.</li>
+<li><strong>Rechtsgrundlage:</strong> ausdrückliche Einwilligung, Art. 9 Abs. 2 lit. a DSGVO in Verbindung mit Art. 6 Abs. 1 lit. a DSGVO.</li>
+</ul>
+<h2>4. Rechtsgrundlagen</h2>
+<ul>
+<li><strong>Gesundheitsdaten (3.2 Stufe a, 3.3, 3.4, 3.5, 3.7)</strong> · Rechtsgrundlage: ausdrückliche Einwilligung, Art. 9 Abs. 2 lit. a DSGVO in Verbindung mit Art. 6 Abs. 1 lit. a DSGVO</li>
+<li><strong>Erweiterte Angaben, freiwillig (3.2 Stufe b: Quiz, Gewohnheiten aus dem Onboarding und zusätzliche Fragen im Abend-Check-in)</strong> · Rechtsgrundlage: eigene ausdrückliche Einwilligung, Art. 9 Abs. 2 lit. a DSGVO in Verbindung mit Art. 6 Abs. 1 lit. a DSGVO</li>
+<li><strong>Konto, Anmeldung, Bereitstellung der App</strong> · Rechtsgrundlage: Vertrag, Art. 6 Abs. 1 lit. b DSGVO</li>
+<li><strong>Käufe über Google Play und RevenueCat</strong> · Rechtsgrundlage: Vertrag, Art. 6 Abs. 1 lit. b DSGVO</li>
+<li><strong>Absturzberichte</strong> · Rechtsgrundlage: berechtigtes Interesse, Art. 6 Abs. 1 lit. f DSGVO, mit Abschaltmöglichkeit in der App</li>
+<li><strong>Freiwillige Datenspende (heute nur die Zustimmung, kein Upload)</strong> · Rechtsgrundlage: Einwilligung, Art. 9 Abs. 2 lit. a in Verbindung mit Art. 6 Abs. 1 lit. a DSGVO (3.12)</li>
+</ul>
+<p>Art. 9 Abs. 2 lit. a DSGVO: "the data subject has given explicit consent to the processing of those personal data for one or more specified purposes" (<a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj" rel="noopener noreferrer">https://eur-lex.europa.eu/eli/reg/2016/679/oj</a>).</p>
+<p>Die Einwilligung holt die App auf einem eigenen Bildschirm mit zwei Pflicht-Kästchen und einem freiwilligen dritten Kästchen für die Datenspende ein. Sie wird mit Fassung, Datum und Speicherort im Nutzerdokument festgehalten. Ändert sich der Text, fragt die App erneut. Die Erweiterten Angaben holt die App getrennt davon ein: eigenes Kästchen, nicht vorangekreuzt, keine Bedingung für die Nutzung.</p>
+<p><strong>Zwei Fassungen</strong>:</p>
+<ul>
+<li><strong>Fassung 1</strong> galt bis 06.10.2026. Sie nennt die Messdaten der Traumreise und die Traumeinträge, Speicherort USA ("Die Server stehen derzeit in den USA.").</li>
+<li><strong>Fassung 2</strong> gilt seit 06.10.2026 nennt zusätzlich die Gesundheitsangaben aus dem Fragebogen (Medikamente, Cannabis, Schlafapnoe, Zyklus), die Schlafphasen aus Health Connect und, nur bei eingeschalteter Atem-Erkennung, die berechneten Atemwerte ohne Ton. Der Satz zum Ton gilt nur für die Traumreise ("Während einer Traumreise wird kein Ton aufgenommen oder gespeichert."). Zum Zugriff: "Andere Nutzer haben keinen Zugriff. Der Betreiber greift nur zur Fehlerbehebung oder auf deine Anfrage zu." Speicherorte: Gesundheitsdaten und Traumeinträge in der EU, Kontodaten (Firebase Authentication) und der Abruf nachladbarer Audios in den USA.</li>
+</ul>
+<h2>5. Speicherorte</h2>
+<ul>
+<li><strong>Messdaten, Tagebuch, Profil, Modell-Sicherung (Cloud Firestore)</strong> · Wo: EU: Datenbank luzide-eu, Standort eur3 (Belgien, Niederlande, Finnland), seit 06.10.2026 · Beleg: "eur3 | Europe | europe-west1 (Belgium), europe-west4 (Netherlands) | europe-north1 (Finland)" (<a href="https://firebase.google.com/docs/firestore/locations" rel="noopener noreferrer">https://firebase.google.com/docs/firestore/locations</a>).</li>
+<li><strong>Anmeldedaten (Firebase Authentication)</strong> · Wo: USA · Beleg: "The Firebase Authentication service is run only from US data centers. As a result, Firebase Authentication processes data exclusively in the United States." (<a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a>)</li>
+<li><strong>Absturzberichte (Crashlytics)</strong> · Wo: weltweite Google-Infrastruktur, Standort nicht wählbar · Beleg: "The majority of Firebase services run on global Google infrastructure. They could process data at any of the Google Cloud Platform locations or Google data center locations." (<a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a>).</li>
+<li><strong>Kaufdaten bei RevenueCat</strong> · Wo: USA (Amazon Web Services) · Beleg: "Amazon Web Services ("AWS") in the USA" (<a href="https://www.revenuecat.com/privacy" rel="noopener noreferrer">https://www.revenuecat.com/privacy</a>)</li>
+<li><strong>Persönliches Modell, Diktat-Zwischendatei, eigene Aufnahmen, Einstellungen, Spender-Kennung, Wahl zu Absturzberichten</strong> · Wo: dein Handy · Beleg: 3.5 bis 3.7, 3.9, 3.12.</li>
+<li><strong>Nachladbare Audios</strong> · Wo: Firebase Storage, US-Region; in der Store-Fassung heute aus · Beleg: 3.11</li>
+</ul>
+<p><strong>Keine Android-Sicherung:</strong> Handy-App und Uhr-App schließen die automatische Android-Sicherung aus. Daten der App auf dem Handy oder der Uhr gehen damit nicht in die Sicherung deines Google-Kontos.</p>
+<p><strong>Ist-Zustand seit 06.10.2026:</strong> Die App schreibt in die Datenbank luzide-eu mit Standort eur3 (EU). Die alte Datenbank (default) mit Standort nam5 (USA) bleibt bis zum 20.10.2026 unverändert als Rückfallebene stehen und wird an diesem Tag gelöscht. Kopiert wurde nicht über einen Cloud-Storage-Export, sondern mit eigenen Skripten über die REST-Schnittstelle; deren Exportdateien liegen lokal beim Betreiber. Firebase Authentication bleibt in den USA; einen EU-Standort gibt es dafür nicht (Zeile oben).</p>
+<p><strong>Übermittlung in die USA:</strong></p>
+<ul>
+<li>Google: "As described in our Data Privacy Framework certification, we comply with the EU-U.S. and Swiss-U.S. Data Privacy Frameworks (DPF)" (<a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a>); "Google LLC ... has certified that it adheres to the DPF Principles" (<a href="https://policies.google.com/privacy/frameworks" rel="noopener noreferrer">https://policies.google.com/privacy/frameworks</a>).</li>
+<li>RevenueCat: Grundlage sind die EU-Standardvertragsklauseln im Auftragsverarbeitungsvertrag: "in Clause 17, Option 1 shall apply and the EU SCCs shall be governed by Irish law" (<a href="https://www.revenuecat.com/dpa" rel="noopener noreferrer">https://www.revenuecat.com/dpa</a>).</li>
+</ul>
+<h2>6. Empfänger</h2>
+<ul>
+<li><strong>Google (Firebase: Authentication, Cloud Firestore, Crashlytics)</strong> · Rolle: Auftragsverarbeiter · Quelle: Firebase Data Processing and Security Terms, <a href="https://firebase.google.com/terms/data-processing-terms" rel="noopener noreferrer">https://firebase.google.com/terms/data-processing-terms</a></li>
+<li><strong>Google (Firebase Storage, Abruf nachladbarer Audios; in der Store-Fassung heute aus)</strong> · Rolle: Auftragsverarbeiter · Quelle: wie Firebase oben; 3.11</li>
+<li><strong>Google (Google-Anmeldung, ggf. Spracherkennung des Systems beim Diktat-Ersatzweg)</strong> · Rolle: eigene Verantwortung von Google · Quelle: Datenschutzerklärung Google: <a href="https://policies.google.com/privacy" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+<li><strong>Google Commerce Limited, Dublin (Google Play)</strong> · Rolle: Vertragspartner beim Kauf · Quelle: "Content on Google Play is offered by Google Commerce Limited" (<a href="https://play.google.com/intl/en_ie/about/play-terms/index.html" rel="noopener noreferrer">https://play.google.com/intl/en_ie/about/play-terms/index.html</a>)</li>
+<li><strong>RevenueCat, Inc., USA</strong> · Rolle: Auftragsverarbeiter · Quelle: "We are not the Data Controllers of this data and act as Data Processors." (<a href="https://www.revenuecat.com/privacy" rel="noopener noreferrer">https://www.revenuecat.com/privacy</a>); DPA <a href="https://www.revenuecat.com/dpa" rel="noopener noreferrer">https://www.revenuecat.com/dpa</a></li>
+<li><strong>Health Connect, Samsung Health</strong> · Rolle: Quelle (Luzide liest nur) · Quelle: 3.4</li>
+</ul>
+<p>Wir verkaufen keine Daten und geben sie nicht an Werbenetzwerke. Google Play verbietet dies für Gesundheitsdaten ausdrücklich: "Transferring or selling user health or fitness data to third parties like advertising platforms, data brokers, or any information resellers" (<a href="https://support.google.com/googleplay/android-developer/answer/12991134" rel="noopener noreferrer">https://support.google.com/googleplay/android-developer/answer/12991134</a>).</p>
+<h2>7. Speicherdauer</h2>
+<ul>
+<li>Deine Daten bleiben gespeichert, bis du sie löschst. Eine automatische Löschfrist für Nächte und Tagebuch gibt es nicht.</li>
+<li>Ausnahmen mit kürzerer Frist: Diktat-Zwischendatei höchstens 24 Stunden, ältere Modellfassungen ab der 31. Fassung.</li>
+<li>Crashlytics: "keeps crash stack traces, extracted minidump data, and associated identifiers ... for 90 days before starting the process of removing it from live and backup systems." (<a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a>)</li>
+<li>Firebase Authentication: "Firebase Authentication keeps logged IP addresses for a few weeks. It retains other authentication information until the Firebase customer initiates deletion of the associated user, after which data is removed from live and backup systems within 180 days." (<a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a>)</li>
+<li>Gelöschte Firestore-Daten: Google sagt allgemein "Google Cloud commits to delete customer data within a maximum period of about six months (180 days)." (<a href="https://docs.cloud.google.com/docs/security/deletion" rel="noopener noreferrer">https://docs.cloud.google.com/docs/security/deletion</a>)</li>
+<li>RevenueCat: die App meldet sich bei der Löschung nur ab, der Kundendatensatz bleibt bestehen.</li>
+</ul>
+<h2>8. Löschen</h2>
+<p>In der App unter Einstellungen (Zahnrad oben rechts auf dem Startbildschirm), Abschnitt "KONTO &amp; DATEN": "Alle Daten löschen" oder "Account komplett löschen".</p>
+<p>Kurz zum Ablauf: zuerst alle Daten in deinem Konto in der Datenbank samt Nutzerdokument (dazu gehören auch die Spende-Zustimmung und die Altersbestätigung), dann ein Löschbefehl an die Uhr, die Abmeldung bei RevenueCat, die Daten auf dem Handy, auf Wunsch das Konto, die Abmeldung und der lokale Datenbank-Zwischenspeicher. Auf dem Handy leert die App den Dokumente-Ordner, den externen App-Ordner, den Temp- und den Cache-Ordner, alle lokalen Einstellungen (auch die Spender-Kennung) und native Einstellungsdateien. Als letzter Schritt leert sie den gesamten Support-Ordner, auch die heruntergeladenen Audios. Die Uhr löscht ihre Daten, sobald sie verbunden ist und keine Traumreise aktiv ist. Wird die Löschung unterbrochen, setzt die App sie beim nächsten Start fort. Fehlt für das Löschen des Kontos eine frische Anmeldung und brichst du sie ab, zeigt die App einen Hinweis mit "Jetzt anmelden".</p>
+<p>Der Widerruf der Pflicht-Einwilligung löscht keine Daten: "Bereits gespeicherte Daten bleiben erhalten, bis du sie in den Einstellungen löschst."</p>
+<h2>9. Website</h2>
+<p>Dieser Abschnitt gilt für den Besuch dieser Website und für die Beta-Anmeldung. Die übrigen Abschnitte beschreiben die App.</p>
+<h3>9.1 Hosting über GitHub Pages</h3>
+<p>Die Website wird über GitHub Pages bereitgestellt. Anbieter ist GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Beim Aufruf der Seiten verarbeitet GitHub technisch notwendige Daten. Laut der Datenschutzerklärung von GitHub gehören dazu die IP-Adresse und Protokolldaten: "We collect data about your interactions with the Services, such as IP address." und "We automatically log data about your Website interactions." Welche Daten GitHub speziell für GitHub Pages erfasst, nennt GitHub dort nicht gesondert. Quelle: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement</a> (abgerufen am 09.10.2026)</p>
+<p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist die sichere und stabile Bereitstellung dieser Website.</p>
+<p>Dabei können Daten in die USA übermittelt werden. GitHub nennt dafür selbst zwei Grundlagen: Es gibt an, das EU-U.S. Data Privacy Framework einzuhalten ("GitHub also complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF)"), und es stützt sich nach eigener Angabe im Allgemeinen auf die von der Europäischen Kommission veröffentlichten Standardvertragsklauseln (Durchführungsbeschluss 2021/914). Quelle: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement</a> (abgerufen am 09.10.2026)</p>
+<h3>9.2 Keine Cookies, keine Analyse</h3>
+<p>Auf den Seiten Datenschutz, Impressum, Nutzungsbedingungen und Konto löschen setzen wir keine Cookies, keinen Analyse- oder Tracking-Dienst und keine Werbung ein. Die Schriften werden von dieser Website selbst ausgeliefert (lokal eingebunden); von Servern Dritter werden keine Schriften oder anderen Ressourcen nachgeladen. Die Sprachwahl (DE/EN) wertet nur dein Browser aus der Adresse aus; sie wird nicht gespeichert.</p>
+<h3>9.3 Beta-Anmeldung über MailerLite</h3>
+<p>Für die Anmeldung zur Beta-Phase nutzen wir den Dienst MailerLite. Vertragspartner ist laut MailerLite bei einer Rechnungsadresse im Europäischen Wirtschaftsraum MailerLite Limited, 88 Harcourt Street, Dublin 2, D02 DK18, Irland. MailerLite verarbeitet die Angaben als Auftragsverarbeiter in unserem Auftrag ("We process Personal Data as a Processor on behalf of the Customer."). Die Auftragsverarbeitung richtet sich nach dem Data Processing Agreement von MailerLite. Quellen: <a href="https://www.mailerlite.com/legal/privacy-policy" rel="noopener noreferrer">https://www.mailerlite.com/legal/privacy-policy</a> und <a href="https://www.mailerlite.com/legal/data-processing-agreement" rel="noopener noreferrer">https://www.mailerlite.com/legal/data-processing-agreement</a> (abgerufen am 09.10.2026)</p>
+<ul>
+<li><strong>Welche Angaben:</strong> die Angaben aus dem Anmeldeformular: Name, E-Mail-Adresse, Telefonnummer und Uhrmodell.</li>
+<li><strong>Wozu:</strong> Auswahl und Kontakt der Beta-Tester.</li>
+<li><strong>Rechtsgrundlage:</strong> deine Einwilligung, Art. 6 Abs. 1 lit. a DSGVO. Du kannst sie jederzeit mit Wirkung für die Zukunft widerrufen, formlos per E-Mail an <a href="mailto:luzide.app@gmail.com">luzide.app@gmail.com</a>. Die Rechtmäßigkeit der Verarbeitung bis zum Widerruf bleibt unberührt.</li>
+<li><strong>Speicherort und Übermittlungen:</strong> MailerLite nennt als Speicherort Rechenzentren in der Europäischen Union ("MailerLite uses Google data storage center with its location in the European Union", Rechenzentren in Deutschland und den Niederlanden). Als Unterauftragsverarbeiter nennt MailerLite in seinem Data Processing Agreement (Anhang 4) Google Cloud EMEA Ltd (Dublin, Irland) und Vercom S.A. (Poznań, Polen). MailerLite darf Daten laut Vereinbarung weltweit dort verarbeiten, wo MailerLite, verbundene Unternehmen oder Unterauftragsverarbeiter Verarbeitungen betreiben. Für Übermittlungen aus der EU sieht die Vereinbarung die Standardvertragsklauseln der EU-Kommission vor (Anhang 3); MailerLite, Inc. (USA) gibt an, auf das Data Privacy Framework zertifiziert zu sein.</li>
+<li><strong>Speicherdauer:</strong> bis zum Ende der Testphase (voraussichtlich 19.10. bis 02.11.2026, bei Bedarf länger). Abgelehnte Bewerbungen speichern wir bis dahin ebenfalls. Danach löschen wir die Angaben.</li>
+</ul>
+<h2>10. Deine Rechte</h2>
+<p>Du hast nach der DSGVO das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21). Quelle: <a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj" rel="noopener noreferrer">https://eur-lex.europa.eu/eli/reg/2016/679/oj</a></p>
+<p>Den Absturzberichten (3.9) widersprichst du am einfachsten direkt in der App: Einstellungen, "KONTO &amp; DATEN", Schalter "Absturzberichte senden" ausschalten. Ab dann sendet die App keine Berichte mehr.</p>
+<p>Du kannst dich bei einer Datenschutz-Aufsichtsbehörde beschweren (Art. 77 DSGVO). Zuständige Behörde für uns: Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen, Kavalleriestraße 2-4, 40213 Düsseldorf.</p>
+<p>Eine Export-Funktion für Nutzer gibt es in der App heute nicht. Anfragen nach Art. 15 und 20 bitte an <a href="mailto:luzide.app@gmail.com">luzide.app@gmail.com</a>.</p>
+<h2>11. Widerruf der Einwilligung</h2>
+<p>Du kannst deine Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen: Einstellungen, "Datenschutz und Einwilligung", "Einwilligung widerrufen". Danach startet keine neue Traumreise mehr. Die Rechtmäßigkeit der Verarbeitung bis zum Widerruf bleibt unberührt: "The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal." (Art. 7 Abs. 3 DSGVO, <a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj" rel="noopener noreferrer">https://eur-lex.europa.eu/eli/reg/2016/679/oj</a>)</p>
+<p>Die Atemerkennung schaltest du getrennt in den Einstellungen aus.</p>
+<p>Die Erweiterten Angaben (3.2 b) widerrufst du getrennt und jederzeit; die Pflicht-Einwilligung bleibt dabei bestehen. Mit dem Widerruf löscht Luzide das Quiz-Profil mit allen Rohantworten, das Archiv früherer Durchläufe, die daraus übernommenen Felder, die Gewohnheits-Schalter aus dem Onboarding und die zusätzlichen Antworten im Abend-Check-in. Danach gibt es kein Quiz, keine Gewohnheitsangaben im Onboarding, der Abend-Check-in stellt nur die Pflichtfragen, und Modelle und Empfehlungen arbeiten mit Standardwerten.</p>
+<p>Die freiwillige Datenspende (3.12) widerrufst du getrennt mit dem Schalter "Nächte spenden" unter "Datenschutz und Einwilligung"; die Pflicht-Einwilligung bleibt dabei bestehen. Widerrufst du die Pflicht-Einwilligung, widerruft die App die Spende mit und entfernt die Spender-Kennung vom Handy.</p>
+<h2>12. Pflicht zur Bereitstellung</h2>
+<p>Die Messdaten sind freiwillig. Ohne Einwilligung kannst du die App öffnen, aber keine Traumreise aufzeichnen und kein Tagebuch speichern. Eine Traumreise ist außerdem erst ab 18 Jahren möglich (3.2).</p>
+<p>Die Erweiterten Angaben (3.2 b) sind vollständig freiwillig. Ohne sie nutzt du alle Kernfunktionen: kein Quiz, keine Gewohnheitsangaben im Onboarding, der Abend-Check-in stellt nur die Pflichtfragen, Modelle und Empfehlungen arbeiten mit Standardwerten.</p>
+<h2>13. Kein Medizinprodukt</h2>
+<p>Luzide ist kein Medizinprodukt und stellt keine Diagnosen. Siehe <a href="nutzungsbedingungen.html">Nutzungsbedingungen</a>.</p>
+</main>
+<nav class="fuss" aria-label="Rechtliches"><a href="nutzungsbedingungen.html">Nutzungsbedingungen</a><a href="konto-loeschen.html">Konto löschen</a><a href="impressum.html">Impressum</a></nav>
+</div>
+<div class="fassung" lang="en" data-title="Privacy policy | Luzide">
+<div class="leiste"><a href="index.html">Back to Luzide</a><nav class="sprache" aria-label="Language"><a href="?lang=de" lang="de" hreflang="de">DE</a><span aria-hidden="true">|</span><a href="?lang=en" aria-current="true" lang="en" hreflang="en">EN</a></nav></div>
+<main>
+<h1>Privacy policy for the Luzide app</h1>
+<p>As of: 9 October 2026</p>
+<h2>1. Controller</h2>
+<p>Joobin Khavand (sole proprietor)</p>
+<p>Flensburgstraße 4, 58093 Hagen, Germany</p>
+<p>E-mail: <a href="mailto:luzide.app@gmail.com">luzide.app@gmail.com</a></p>
+<p>We have not appointed a data protection officer.</p>
+<h2>2. Summary</h2>
+<ul>
+<li>Luzide is a training app for lucid dreaming. During a dream journey that you start yourself, Luzide processes health data (heart rate, inter-beat intervals, skin temperature, movement) to estimate sleep stages and to give you gentle cues during REM sleep.</li>
+<li>For this we need your <strong>explicit consent</strong>. Without it, no dream journey starts and your journal is not saved.</li>
+<li>Your details are split into two levels: the required consent for the core function and a voluntary consent for "Extended details" (quiz, habits from onboarding and additional questions in the evening check-in). The second is not pre-ticked, can be withdrawn at any time, and withdrawing it deletes these details (3.2).</li>
+<li>Sleep stage detection and the training of your personal model run <strong>on your phone</strong>.</li>
+<li>Your data is stored in your account with Google Firebase: health and dream data in the EU, the account data of your sign-in in the USA (section 5). Only you have access to your account through the app.</li>
+<li>No advertising, no selling, no analytics services.</li>
+</ul>
+<h2>3. What data we process</h2>
+<h3>3.1 Account and sign-in</h3>
+<ul>
+<li><strong>Google account: email address, Google ID, Firebase user ID (UID)</strong> · Purpose: sign-in, linking your data to you</li>
+</ul>
+<p>The email address is <strong>not</strong> written to our database. It is only managed by Firebase Authentication and shown in the app. No profile picture is stored.</p>
+<h3>3.2 Profile and questionnaire</h3>
+<p>Luzide splits your details into two levels. Level a belongs to the core function and is part of the required consent. Level b, the "Extended details", is a separate, voluntary consent.</p>
+<p><strong>a) Required consent (core function)</strong></p>
+<p>Without this consent no dream journey starts (see "Obligation to provide data"). It covers these categories:</p>
+<ul>
+<li><strong>Account and profile:</strong> the name you choose, language, experience level, goal, device, commitment level, date of birth, biological sex and the age confirmation.</li>
+<li><strong>Watch measurements:</strong> heart rate, inter-beat intervals, skin temperature and wrist movement, only during a dream journey that you start yourself (3.3).</li>
+<li><strong>Phone measurements:</strong> movement and position of the phone; only if you switch on breath detection, breathing values calculated from it, without sound (3.3).</li>
+<li><strong>Sleep stages from Health Connect:</strong> awake, light, deep and REM from Samsung Health, with the name of the supplying app (3.4).</li>
+<li><strong>Calculations and signal log:</strong> calculated sleep stages, which signals were given and when, whether you were woken, technical diagnostic details of the night, plus moon phase and phone position (3.3).</li>
+<li><strong>Dream journal:</strong> entries, dream signs, saved dream sign analysis, intention and notes on the night (3.5).</li>
+<li><strong>Morning details:</strong> dream quality, whether you remember, number of dreams, whether a dream was lucid and how clear, and whether your intention worked out. They are needed for the signals and for training your personal model.</li>
+<li><strong>Model and progress:</strong> your personal model including its backup, your sleep profile, the overall statistics and your progress in the learning path (completed lessons, passed gates, self-assessments, unlock code) (3.7).</li>
+</ul>
+<p>Most of these details are <strong>health data</strong> within the meaning of Art. 9 GDPR. Purpose: detecting sleep stages, giving you signals, training your personal model and showing you your evaluations. The legal basis is your explicit consent, Art. 9(2)(a) in conjunction with Art. 6(1)(a) GDPR.</p>
+<p><strong>b) Voluntary consent "Extended details"</strong></p>
+<p>This consent is voluntary. The checkbox is not pre-ticked, and using the app does not depend on it. You can withdraw it at any time; withdrawing deletes the details of this level. The quiz is open to PRO users only. The consent covers:</p>
+<ul>
+<li><strong>Quiz, sleep and dreams:</strong> how long you sleep, time of falling asleep, sleep depth, waking up at night, bedtimes and wake-up times, chronotype, weekends, falling asleep again, alertness after waking, alarm clock; dream recall, dream journal, recurring dreams, experience with lucid dreams; nightmares (frequency, content, reaction, lucid nightmares); sleep paralysis (experience, frequency, how you deal with it).</li>
+<li><strong>Quiz, motivation and perception:</strong> imagination, perception in everyday life, what attracts you to lucid dreaming, your first lucid dream, obstacles, habits, mindfulness, surroundings, expectations and a free-text field.</li>
+<li><strong>Quiz, habits and surroundings:</strong> caffeine, alcohol, cannabis, screen time before sleep, sport, shift work, naps, bed partner; darkness, noise, temperature, sleeping position and phone in the bedroom.</li>
+<li><strong>Habits from onboarding:</strong> sport, meditation, caffeine and alcohol, each yes or no. Without this consent onboarding does not ask for them; withdrawing the consent deletes them.</li>
+<li><strong>Quiz, health details:</strong> sleep disorders (snoring, diagnosed sleep apnoea, restless legs, teeth grinding), supplements and, if you stated female as your biological sex, the influence of the menstrual cycle.</li>
+<li><strong>Quiz, mental health details:</strong> stress, dissociation, whether you are in psychotherapeutic treatment, psychoactive medication, emotion regulation and your own assessment of whether you have an active psychosis, severe dissociation or acute trauma.</li>
+<li><strong>Quiz, raw answers and results:</strong> we store all raw answers verbatim (including the free-text field) in the user document, plus individual fields taken from them, an archive of earlier runs (summary with profile sentence, sleep type, channel, drive, blocker and risk) and the calculated results (sleep type, channel, drive, blocker, experience level, risk notice, profile sentence, personal path, starting window for the planned waking in the night and your confirmations of the notices).</li>
+<li><strong>Evening check-in, additional questions:</strong> stress, last meal, screen time, caffeine, alcohol, sport, meditation and emotional course of the day. The answers are stored with the respective night in your account.</li>
+</ul>
+<p>These details are mostly <strong>health data</strong> within the meaning of Art. 9 GDPR, including the mental health details. Purpose: tailoring recommendations and techniques to you, giving safety notices and feeding models with your details. The legal basis is your own explicit consent, Art. 9(2)(a) in conjunction with Art. 6(1)(a) GDPR. You can leave any question unanswered.</p>
+<p>Without this consent there is no quiz, no habit details in onboarding, the evening check-in asks only the required questions, and models and recommendations work with default values. If you withdraw it, Luzide deletes the quiz profile with all raw answers, the archive of earlier runs, the fields taken from it, the habit switches from onboarding and the additional answers in the evening check-in.</p>
+<p><strong>Age limit:</strong> A dream journey only starts from the age of 18. If a date of birth under 18 is stored, starting is blocked; if there is no date of birth, the app asks once to confirm "at least 18". The confirmation is stored locally per user ID and in the user document. The age limit does not block other parts of the app (e.g. the journal).</p>
+<h3>3.3 Measurement data during a dream journey</h3>
+<p>Collected only during a dream journey that you start yourself.</p>
+<ul>
+<li><strong>Heart rate</strong> · Source: watch: Samsung Health Sensor SDK, fallback Wear OS Health Services · Storage location in Firestore: dreamNights/{id}/hrData (30-second averages)</li>
+<li><strong>Inter-beat intervals (IBI)</strong> · Source: watch, Samsung Health Sensor SDK · Storage location in Firestore: dreamNights/{id}/rrData (raw series)</li>
+<li><strong>Skin temperature</strong> · Source: watch, Samsung Health Sensor SDK · Storage location in Firestore: dreamNights/{id}/tempData</li>
+<li><strong>Wrist movement</strong> · Source: watch, accelerometer · Storage location in Firestore: dreamNights/{id}/motionData (values per second)</li>
+<li><strong>Phone movement</strong> · Source: phone, accelerometer and gyroscope</li>
+<li><strong>Breathing (only if switched on)</strong> · Source: phone microphone, derived values only · Storage location in Firestore: dreamNights/{id}/breathData</li>
+<li><strong>Calculated sleep stages, cues given, logs</strong> · Source: app</li>
+</ul>
+<p>These storage locations are each located under users/{uid}/.</p>
+<p><strong>Raw PPG data</strong> (light signal of the pulse sensor) is <strong>not</strong> collected. The sensor already delivers the heart values in calculated form.</p>
+<p><strong>On breath detection:</strong> The microphone only runs during an active dream journey. No sound is stored, only breathing rate and its variability. Off by default.</p>
+<p><strong>Samsung Health Sensor SDK:</strong> "The Samsung Health Sensor SDK does not share data with Samsung Health." (<a href="https://developer.samsung.com/health/sensor/faq.html" rel="noopener noreferrer">https://developer.samsung.com/health/sensor/faq.html</a>).</p>
+<p><strong>Watch and phone:</strong> The watch does not store measurement series permanently and has no connection to Firebase; it sends to your phone via the Wearable Data Layer API.</p>
+<h3>3.4 Sleep data from Health Connect</h3>
+<p>If you allow it, Luzide reads your sleep sessions with sleep stages (awake, light, deep, REM) from Health Connect, <strong>only those from Samsung Health</strong>. Luzide only reads, it writes nothing to Health Connect. Stored in the night document. Purpose: comparison with Luzide's own detection and training of your personal model.</p>
+<p><strong>Origin is stored (since 05.10.2026):</strong> For each night, Luzide stores which app delivered how many sleep segments, i.e. the package name of the writing app and a count. Stored in the night document and in the measurement log. Purpose: being able to trace where the comparison data comes from.</p>
+<p><strong>Samsung Health only (since 06.10.2026):</strong> From Health Connect, Luzide reads and imports only sleep sessions written by Samsung Health. Sleep data written to Health Connect by other apps is not read. Both read paths query Health Connect with this origin filter. The origin count above remains.</p>
+<h3>3.5 Dream journal, dream signs, dictation</h3>
+<ul>
+<li><strong>Journal entries: title, text, date, mood, dream quality, tags, lucid yes/no, linked night</strong></li>
+<li><strong>Dream signs: name, frequency</strong></li>
+<li><strong>Saved dream sign analysis: dismissed suggestions and themes with their count</strong></li>
+<li><strong>Intention and notes on the night; evening check-in (required questions)</strong></li>
+</ul>
+<p><strong>Evening check-in:</strong> The required questions belong to the required consent. The additional questions (stress, last meal, screen time, caffeine, alcohol, sport, meditation, emotional course of the day) are asked only if you have consented to the Extended details (3.2 b). The check-in appears only at the higher commitment levels. The answers are stored with the respective night in your account.</p>
+<p>Dream sign detection runs on the phone without a network.</p>
+<p><strong>Dictation:</strong> You can dictate entries by voice.</p>
+<ul>
+<li>Main path (Android 13 and newer, with an installed language pack): recognition runs on the phone. For a second, more accurate recognition, the audio is briefly stored as a file on the phone and then deleted; the app deletes leftovers older than 24 hours at start. The file is never uploaded.</li>
+<li>Fallback: your system's speech recognition (usually Google). The audio may then go to the provider's servers. Android on this: "The implementation of this API is likely to stream audio to remote servers to perform speech recognition." (<a href="https://developer.android.com/reference/android/speech/SpeechRecognizer" rel="noopener noreferrer">https://developer.android.com/reference/android/speech/SpeechRecognizer</a>). The first time the fallback is used, the app shows a one-time notice: "Your speech may be sent online to this service for recognition. Luzide itself does not store a recording." The fallback starts only after "Got it, dictate"; the app remembers this per device and user ID. The app's own on-device path needs no notice and stays on the phone.</li>
+</ul>
+<h3>3.6 Own voice recording as a cue</h3>
+<p>If you make your own recording for the daytime cues, Luzide stores it as a file on your phone only. It is not sent to the watch or to the cloud.</p>
+<h3>3.7 Personal sleep model</h3>
+<p>The model is trained on your phone; the local file is authoritative. A compressed backup copy is kept in your account under users/{uid}/personalModel so that it is not lost when you change devices. At most 30 older versions are kept on the phone.</p>
+<h3>3.8 Purchases</h3>
+<p>For PRO we use the billing service of Google Play and RevenueCat. Luzide reports your Firebase UID to RevenueCat as the customer ID. RevenueCat receives the purchase history from Google Play: "RevenueCat collects a customer's purchase history" (<a href="https://www.revenuecat.com/docs/platform-resources/google-platform-resources/google-plays-data-safety" rel="noopener noreferrer">https://www.revenuecat.com/docs/platform-resources/google-platform-resources/google-plays-data-safety</a>). We do not see payment data (card, account); it stays with Google Play.</p>
+<h3>3.9 Crash reports</h3>
+<p>In release versions, the app sends crash reports to Firebase Crashlytics unless you switch this off. According to Google, Crashlytics collects "Crashlytics Installation UUIDs, Firebase installations ID, Crash traces, Breakpad minidump formatted data (NDK crashes only)" (<a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a>). We do not link reports to your UID.</p>
+<p><strong>Switching off:</strong> Settings, section "ACCOUNT &amp; DATA", switch "Send crash reports". Default: on. The choice is stored on the phone and takes effect at start and immediately when switched. Debug versions never send, regardless of the switch. After the data on the phone has been deleted, the switch is back on the default "on" (the choice is part of the local settings that deletion clears).</p>
+<h3>3.10 Fonts</h3>
+<p>All fonts are included in the app. The app does not fetch fonts from Google servers, so no IP address is transmitted to Google for this. If a file is missing, the package stops instead of silently loading from the network. The fonts are licensed under the SIL Open Font License 1.1; the licence texts are listed in the app's licence screen.</p>
+<h3>3.11 Downloadable audio content (built, switched off in the store version)</h3>
+<p>The audio library is built but switched off in the store version. The storage location has been decided: Firebase Storage in a free US region. The bucket has not been created yet. The app fetches the download address and stores the files on the phone in the support folder.</p>
+<p>Version 2 of the consent names this download.</p>
+<h3>3.12 Voluntary data donation (prepared, no transfer today)</h3>
+<p><strong>Today nothing is donated and nothing is transferred.</strong> The upload is not built and is switched off. It will only come once Samsung has confirmed in writing that the sensor data may be passed on. Only the consent is built:</p>
+<ul>
+<li>The consent screen has a third, voluntary checkbox "Data donation (optional)". Checkbox and switch only appear in version 2 of the consent. It is not preselected and is not a condition for using the app: the required consent is valid with or without a donation.</li>
+<li>The agreement is stored in the user document with the version, the time of agreement and, if applicable, the time of withdrawal. The donation text has its own version.</li>
+<li>When you agree, the app creates a donor ID: sp_ and 128 random bits. It is stored only on the phone in the local settings, per user ID, not in the database. You can view and copy it under Settings, "Privacy and consent".</li>
+<li>Withdrawal: with the switch "Donate nights" under "Privacy and consent". The app sets the withdrawal time and removes the donor ID from the phone. Withdrawing the required consent also withdraws the donation.</li>
+</ul>
+<p>What a donation is to contain later is described in the app text: measurement series from watch and phone, sleep stages from Samsung Health, whether cues were given and whether you were woken, age group and sex, never journal, name, email or date of the night. These statements describe an upload that does not exist yet. This section will be rewritten once the upload is built.</p>
+<h3>3.13 Beta evaluation</h3>
+<p>Only in test versions for beta testers does Luzide ask for an additional, voluntary consent: the beta evaluation. It does not exist in the store version without tester PRO.</p>
+<ul>
+<li><strong>What:</strong> If you agree, Joobin Khavand as the operator views and evaluates your night data during the beta test to improve dream detection and the signals. This includes heart rhythm and movement from the watch, sleep stages from Health Connect, the signal log and your answers in the morning.</li>
+<li><strong>What not:</strong> Your journal texts are excluded.</li>
+<li><strong>Voluntary:</strong> The checkbox is not preselected and is not a condition for use: the required consent and the dream journey do not depend on it.</li>
+<li><strong>When you are asked:</strong> together with the consent when you give it again, and otherwise once after the update or directly after the first onboarding.</li>
+<li>A "No" is also stored so that you are not asked again.</li>
+<li><strong>Duration:</strong> only for the beta test, at the latest until 31.12.2026. After that, the agreement no longer applies.</li>
+<li><strong>Only valid together with the required consent</strong>: Withdrawing the required consent also withdraws the beta evaluation. If you consent again afterwards, you are asked about the beta evaluation again with an empty checkbox; an earlier agreement does not come back.</li>
+<li><strong>Withdrawal:</strong> at any time under Settings, "Privacy and consent", switch "Take part in the beta evaluation". From then on the evaluation ends. The app continues to work unchanged.</li>
+<li><strong>How the evaluation is done:</strong> The operator reads the night data from your account in the EU database via the Google Cloud interface with his own access. Extracts are kept only on his computer.</li>
+<li><strong>Deletion period:</strong> Local extracts of the beta evaluation are deleted by 31.12.2026 at the latest. Aggregated figures without reference to individual testers may remain beyond that. The night data in your account itself remains until you delete it (section 7). A deletion request also applies to these extracts on the operator's computer: they are deleted there as well.</li>
+<li><strong>Distinction from the data donation (3.12):</strong> The beta evaluation concerns your nights in your account during the beta test. The data donation is independent of it and concerns the pseudonymised passing on of nights for the time after the beta.</li>
+<li><strong>Legal basis:</strong> explicit consent, Art. 9(2)(a) GDPR in conjunction with Art. 6(1)(a) GDPR.</li>
+</ul>
+<h2>4. Legal bases</h2>
+<ul>
+<li><strong>Health data (3.2 level a, 3.3, 3.4, 3.5, 3.7)</strong> · Legal basis: explicit consent, Art. 9(2)(a) GDPR in conjunction with Art. 6(1)(a) GDPR</li>
+<li><strong>Extended details, voluntary (3.2 level b: quiz, habits from onboarding and additional questions in the evening check-in)</strong> · Legal basis: separate explicit consent, Art. 9(2)(a) GDPR in conjunction with Art. 6(1)(a) GDPR</li>
+<li><strong>Account, sign-in, provision of the app</strong> · Legal basis: contract, Art. 6(1)(b) GDPR</li>
+<li><strong>Purchases via Google Play and RevenueCat</strong> · Legal basis: contract, Art. 6(1)(b) GDPR</li>
+<li><strong>Crash reports</strong> · Legal basis: legitimate interest, Art. 6(1)(f) GDPR, with the option to switch off in the app</li>
+<li><strong>Voluntary data donation (today only the agreement, no upload)</strong> · Legal basis: consent, Art. 9(2)(a) in conjunction with Art. 6(1)(a) GDPR (3.12)</li>
+</ul>
+<p>Art. 9(2)(a) GDPR: "the data subject has given explicit consent to the processing of those personal data for one or more specified purposes" (<a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj" rel="noopener noreferrer">https://eur-lex.europa.eu/eli/reg/2016/679/oj</a>).</p>
+<p>The app obtains consent on a separate screen with two required checkboxes and a voluntary third checkbox for the data donation. It is recorded in the user document with version, date and storage location. If the text changes, the app asks again. The app obtains the Extended details separately: its own checkbox, not pre-ticked, not a condition for using the app.</p>
+<p><strong>Two versions:</strong></p>
+<ul>
+<li><strong>Version 1</strong> applied until 06.10.2026. It names the measurement data of the dream journey and the dream entries, storage location USA ("The servers are currently located in the USA.").</li>
+<li><strong>Version 2</strong> applies since 06.10.2026 and additionally names the health details from the questionnaire (medication, cannabis, sleep apnoea, cycle), the sleep stages from Health Connect and, only with breath detection switched on, the calculated breathing values without sound. The sentence on sound applies only to the dream journey ("During a dream journey, no audio is recorded or stored."). On access: "Other users have no access. The operator only accesses data for troubleshooting or at your request." Storage locations: health data and dream entries in the EU, account data (Firebase Authentication) and the download of downloadable audio in the USA.</li>
+</ul>
+<h2>5. Storage locations</h2>
+<ul>
+<li><strong>Measurement data, journal, profile, model backup (Cloud Firestore)</strong> · Where: EU: database luzide-eu, location eur3 (Belgium, Netherlands, Finland), since 06.10.2026 · Evidence: "eur3 | Europe | europe-west1 (Belgium), europe-west4 (Netherlands) | europe-north1 (Finland)" (<a href="https://firebase.google.com/docs/firestore/locations" rel="noopener noreferrer">https://firebase.google.com/docs/firestore/locations</a>).</li>
+<li><strong>Sign-in data (Firebase Authentication)</strong> · Where: USA · Evidence: "The Firebase Authentication service is run only from US data centers. As a result, Firebase Authentication processes data exclusively in the United States." (<a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a>)</li>
+<li><strong>Crash reports (Crashlytics)</strong> · Where: global Google infrastructure, location cannot be chosen · Evidence: "The majority of Firebase services run on global Google infrastructure. They could process data at any of the Google Cloud Platform locations or Google data center locations." (<a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a>).</li>
+<li><strong>Purchase data at RevenueCat</strong> · Where: USA (Amazon Web Services) · Evidence: "Amazon Web Services ("AWS") in the USA" (<a href="https://www.revenuecat.com/privacy" rel="noopener noreferrer">https://www.revenuecat.com/privacy</a>)</li>
+<li><strong>Personal model, dictation temporary file, own recordings, settings, donor ID, crash report choice</strong> · Where: your phone · Evidence: 3.5 to 3.7, 3.9, 3.12.</li>
+<li><strong>Downloadable audio</strong> · Where: Firebase Storage, US region; switched off in the store version today · Evidence: 3.11</li>
+</ul>
+<p><strong>No Android backup:</strong> The phone app and the watch app exclude the automatic Android backup. App data on the phone or the watch therefore does not go into the backup of your Google account.</p>
+<p><strong>Current state since 06.10.2026:</strong> The app writes to the database luzide-eu with location eur3 (EU). The old database (default) with location nam5 (USA) remains unchanged as a fallback until 20.10.2026 and will be deleted on that day. The data was not copied via a Cloud Storage export but with our own scripts via the REST interface; their export files are stored locally with the operator. Firebase Authentication remains in the USA; there is no EU location for it (line above).</p>
+<p><strong>Transfer to the USA:</strong></p>
+<ul>
+<li>Google: "As described in our Data Privacy Framework certification, we comply with the EU-U.S. and Swiss-U.S. Data Privacy Frameworks (DPF)" (<a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a>); "Google LLC ... has certified that it adheres to the DPF Principles" (<a href="https://policies.google.com/privacy/frameworks" rel="noopener noreferrer">https://policies.google.com/privacy/frameworks</a>).</li>
+<li>RevenueCat: The basis is the EU standard contractual clauses in the data processing agreement: "in Clause 17, Option 1 shall apply and the EU SCCs shall be governed by Irish law" (<a href="https://www.revenuecat.com/dpa" rel="noopener noreferrer">https://www.revenuecat.com/dpa</a>).</li>
+</ul>
+<h2>6. Recipients</h2>
+<ul>
+<li><strong>Google (Firebase: Authentication, Cloud Firestore, Crashlytics)</strong> · Role: processor · Source: Firebase Data Processing and Security Terms, <a href="https://firebase.google.com/terms/data-processing-terms" rel="noopener noreferrer">https://firebase.google.com/terms/data-processing-terms</a></li>
+<li><strong>Google (Firebase Storage, download of downloadable audio; switched off in the store version today)</strong> · Role: processor · Source: as Firebase above; 3.11</li>
+<li><strong>Google (Google sign-in, possibly the system speech recognition for the dictation fallback)</strong> · Role: Google's own responsibility · Source: Google privacy policy: <a href="https://policies.google.com/privacy" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+<li><strong>Google Commerce Limited, Dublin (Google Play)</strong> · Role: contractual partner for purchases · Source: "Content on Google Play is offered by Google Commerce Limited" (<a href="https://play.google.com/intl/en_ie/about/play-terms/index.html" rel="noopener noreferrer">https://play.google.com/intl/en_ie/about/play-terms/index.html</a>)</li>
+<li><strong>RevenueCat, Inc., USA</strong> · Role: processor · Source: "We are not the Data Controllers of this data and act as Data Processors." (<a href="https://www.revenuecat.com/privacy" rel="noopener noreferrer">https://www.revenuecat.com/privacy</a>); DPA <a href="https://www.revenuecat.com/dpa" rel="noopener noreferrer">https://www.revenuecat.com/dpa</a></li>
+<li><strong>Health Connect, Samsung Health</strong> · Role: source (Luzide only reads) · Source: 3.4</li>
+</ul>
+<p>We do not sell data and do not pass it on to advertising networks. Google Play expressly prohibits this for health data: "Transferring or selling user health or fitness data to third parties like advertising platforms, data brokers, or any information resellers" (<a href="https://support.google.com/googleplay/android-developer/answer/12991134" rel="noopener noreferrer">https://support.google.com/googleplay/android-developer/answer/12991134</a>).</p>
+<h2>7. Storage period</h2>
+<ul>
+<li>Your data remains stored until you delete it. There is no automatic deletion period for nights and journal.</li>
+<li>Exceptions with a shorter period: dictation temporary file at most 24 hours, older model versions from the 31st version onwards.</li>
+<li>Crashlytics: "keeps crash stack traces, extracted minidump data, and associated identifiers ... for 90 days before starting the process of removing it from live and backup systems." (<a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a>)</li>
+<li>Firebase Authentication: "Firebase Authentication keeps logged IP addresses for a few weeks. It retains other authentication information until the Firebase customer initiates deletion of the associated user, after which data is removed from live and backup systems within 180 days." (<a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">https://firebase.google.com/support/privacy</a>)</li>
+<li>Deleted Firestore data: Google states in general "Google Cloud commits to delete customer data within a maximum period of about six months (180 days)." (<a href="https://docs.cloud.google.com/docs/security/deletion" rel="noopener noreferrer">https://docs.cloud.google.com/docs/security/deletion</a>)</li>
+<li>RevenueCat: when deleting, the app only signs out; the customer record remains.</li>
+</ul>
+<h2>8. Deletion</h2>
+<p>In the app under Settings (gear icon top right on the start screen), section "ACCOUNT &amp; DATA": "Delete all data" or "Delete account completely".</p>
+<p>The process in short: first all data in your account in the database including the user document (this includes the donation agreement and the age confirmation), then a delete command to the watch, signing out of RevenueCat, the data on the phone, if chosen the account, signing out and the local database cache. On the phone, the app empties the documents folder, the external app folder, the temp and cache folders, all local settings (including the donor ID) and native settings files. As the last step it empties the entire support folder, including downloaded audio. The watch deletes its data as soon as it is connected and no dream journey is active. If deletion is interrupted, the app continues it at the next start. If deleting the account requires a fresh sign-in and you cancel it, the app shows a notice with "Sign in now".</p>
+<p>Withdrawing the required consent does not delete any data: "Data already stored remains until you delete it in the settings."</p>
+<h2>9. Website</h2>
+<p>This section applies to visiting this website and to the beta sign-up. The other sections describe the app.</p>
+<h3>9.1 Hosting via GitHub Pages</h3>
+<p>The website is served via GitHub Pages. The provider is GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. When you open the pages, GitHub processes technically necessary data. According to the GitHub privacy statement this includes the IP address and log data: "We collect data about your interactions with the Services, such as IP address." and "We automatically log data about your Website interactions." GitHub does not separately state there which data it collects specifically for GitHub Pages. Source: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement</a> (retrieved 9 October 2026)</p>
+<p>The legal basis is Art. 6(1)(f) GDPR. Our legitimate interest is the secure and stable provision of this website.</p>
+<p>Data may be transferred to the USA in the process. GitHub itself names two bases: it states that it complies with the EU-U.S. Data Privacy Framework ("GitHub also complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF)"), and it states that it generally relies on the standard contractual clauses published by the European Commission (Implementing Decision 2021/914). Source: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement</a> (retrieved 9 October 2026)</p>
+<h3>9.2 No cookies, no analytics</h3>
+<p>On the pages Privacy policy, Legal notice, Terms of use and Delete account we do not use cookies, analytics or tracking services, or advertising. The fonts are delivered by this website itself (included locally); no fonts or other resources are loaded from third-party servers. The language selection (DE/EN) is evaluated only by your browser from the address; it is not stored.</p>
+<h3>9.3 Beta sign-up via MailerLite</h3>
+<p>For the beta sign-up we use the service MailerLite. According to MailerLite, the contracting party for a billing address in the European Economic Area is MailerLite Limited, 88 Harcourt Street, Dublin 2, D02 DK18, Ireland. MailerLite processes the data as a processor on our behalf ("We process Personal Data as a Processor on behalf of the Customer."). The processing is governed by the MailerLite Data Processing Agreement. Sources: <a href="https://www.mailerlite.com/legal/privacy-policy" rel="noopener noreferrer">https://www.mailerlite.com/legal/privacy-policy</a> and <a href="https://www.mailerlite.com/legal/data-processing-agreement" rel="noopener noreferrer">https://www.mailerlite.com/legal/data-processing-agreement</a> (retrieved 9 October 2026)</p>
+<ul>
+<li><strong>What data:</strong> the details from the sign-up form: name, email address, phone number and watch model.</li>
+<li><strong>Purpose:</strong> selecting and contacting beta testers.</li>
+<li><strong>Legal basis:</strong> your consent, Art. 6(1)(a) GDPR. You can withdraw it at any time with effect for the future, informally by email to <a href="mailto:luzide.app@gmail.com">luzide.app@gmail.com</a>. The lawfulness of processing until the withdrawal remains unaffected.</li>
+<li><strong>Storage location and transfers:</strong> MailerLite states data storage centers in the European Union ("MailerLite uses Google data storage center with its location in the European Union", data centers in Germany and the Netherlands). In its Data Processing Agreement (Annex 4) MailerLite names Google Cloud EMEA Ltd (Dublin, Ireland) and Vercom S.A. (Poznań, Poland) as sub-processors. Under the agreement, MailerLite may process data anywhere in the world where MailerLite, its affiliates or its sub-processors maintain processing operations. For transfers from the EU the agreement provides for the European Commission's standard contractual clauses (Annex 3); MailerLite, Inc. (USA) states that it is certified under the Data Privacy Framework.</li>
+<li><strong>Storage period:</strong> until the end of the test phase (expected 19 October to 2 November 2026, longer if needed). We also keep rejected applications until then. After that we delete the data.</li>
+</ul>
+<h2>10. Your rights</h2>
+<p>Under the GDPR you have the right of access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction (Art. 18), data portability (Art. 20) and to object to processing based on legitimate interests (Art. 21). Source: <a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj" rel="noopener noreferrer">https://eur-lex.europa.eu/eli/reg/2016/679/oj</a></p>
+<p>The easiest way to object to crash reports (3.9) is directly in the app: Settings, "ACCOUNT &amp; DATA", switch off "Send crash reports". From then on the app sends no more reports.</p>
+<p>You can lodge a complaint with a data protection supervisory authority (Art. 77 GDPR). Competent authority for us: State Commissioner for Data Protection and Freedom of Information of North Rhine-Westphalia (Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen), Kavalleriestraße 2-4, 40213 Düsseldorf, Germany.</p>
+<p>There is currently no export function for users in the app. Please send requests under Art. 15 and 20 to <a href="mailto:luzide.app@gmail.com">luzide.app@gmail.com</a>.</p>
+<h2>11. Withdrawing consent</h2>
+<p>You can withdraw your consent at any time with effect for the future: Settings, "Privacy and consent", "Withdraw consent". After that, no new dream journey starts. The lawfulness of processing until the withdrawal remains unaffected: "The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal." (Art. 7(3) GDPR, <a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj" rel="noopener noreferrer">https://eur-lex.europa.eu/eli/reg/2016/679/oj</a>)</p>
+<p>You switch off breath detection separately in the settings.</p>
+<p>You withdraw the Extended details (3.2 b) separately and at any time; the required consent remains. With the withdrawal Luzide deletes the quiz profile with all raw answers, the archive of earlier runs, the fields taken from it, the habit switches from onboarding and the additional answers in the evening check-in. After that there is no quiz, no habit details in onboarding, the evening check-in asks only the required questions, and models and recommendations work with default values.</p>
+<p>You withdraw the voluntary data donation (3.12) separately with the switch "Donate nights" under "Privacy and consent"; the required consent remains. If you withdraw the required consent, the app also withdraws the donation and removes the donor ID from the phone.</p>
+<h2>12. Obligation to provide data</h2>
+<p>The measurement data is voluntary. Without consent you can open the app, but you cannot record a dream journey or save a journal. A dream journey is also only possible from the age of 18 (3.2).</p>
+<p>The Extended details (3.2 b) are entirely voluntary. Without them you use all core functions: no quiz, no habit details in onboarding, the evening check-in asks only the required questions, models and recommendations work with default values.</p>
+<h2>13. Not a medical device</h2>
+<p>Luzide is not a medical device and does not make diagnoses. See terms of use.</p>
+</main>
+<nav class="fuss" aria-label="Legal"><a href="nutzungsbedingungen.html?lang=en">Terms of use</a><a href="konto-loeschen.html?lang=en">Delete account</a><a href="impressum.html?lang=en">Legal notice</a></nav>
+</div>
+</body>
+</html>
