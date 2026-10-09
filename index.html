@@ -1,7 +1,21 @@
 <!doctype html>
-<html lang="de">
+<html lang="de" translate="no">
 <head>
 <meta charset="utf-8">
+<meta name="google" content="notranslate">
+<link rel="canonical" href="https://luzide.app/">
+<link rel="alternate" hreflang="de" href="https://luzide.app/?lang=de">
+<link rel="alternate" hreflang="en" href="https://luzide.app/?lang=en">
+<link rel="alternate" hreflang="es" href="https://luzide.app/?lang=es">
+<link rel="alternate" hreflang="x-default" href="https://luzide.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Luzide">
+<meta property="og:url" content="https://luzide.app/">
+<meta property="og:title" content="Luzide · Erwache im Traum" data-i18n-attr="content:title">
+<meta property="og:description" content="Luzide lernt aus deinen Nächten, wann du träumst, und erreicht dich genau dann mit dem Ton, den du tagsüber trainiert hast. Für Android und Galaxy Watch. Beta ab 19. Oktober 2026." data-i18n-attr="content:desc">
+<meta property="og:locale" content="de_DE">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:locale:alternate" content="es_ES">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Luzide · Erwache im Traum</title>
 <meta name="description" content="Luzide lernt aus deinen Nächten, wann du träumst, und erreicht dich genau dann mit dem Ton, den du tagsüber trainiert hast. Für Android und Galaxy Watch. Beta ab 19. Oktober 2026.">
@@ -831,6 +845,12 @@
   .training .split { justify-items: center; }
   .training .tone-ph { text-align: center; }
   @media (max-width: 899px) { .erw-video { height: 50vh; } }
+  .consent { display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: start; font-size: .88rem; line-height: 1.5; color: var(--muted); cursor: pointer; }
+  .consent input { width: 18px; height: 18px; margin: 2px 0 0; accent-color: #B08A57; cursor: pointer; }
+  .privacy a { color: inherit; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(176,138,87,.7); }
+  .news-card a.news-link { color: inherit; text-decoration: none; }
+  .news-card a.news-link:hover h3 { text-decoration: underline; text-decoration-color: rgba(176,138,87,.7); text-underline-offset: 4px; }
+  a.news-more { display: inline-block; color: var(--ink); text-decoration: none; }
 </style>
 </head>
 <body>
@@ -839,7 +859,7 @@
 
 
 <header class="topnav" id="topnav">
-  <a class="brand" href="#hero" aria-label="Luzide">
+  <a class="brand" href="#hero" aria-label="Luzide" translate="no">
     <svg class="moon" viewBox="0 0 24 24" aria-hidden="true">
       <defs><mask id="moonMask"><rect width="24" height="24" fill="#fff"/><circle id="moonShadow" cx="12" cy="12" r="9.2" fill="#000"/></mask></defs>
       <circle cx="12" cy="12" r="9" class="moon-ring"/>
@@ -850,11 +870,11 @@
   <nav class="navlinks" aria-label="Seiten-Navigation">
     <a href="#so-funktioniert-es" data-i18n="nav_how">So funktioniert es</a>
     <a href="#funktionen" data-i18n="nav_feat">Funktionen</a>
-    <a href="#neuigkeiten" data-i18n="nav_news">Neuigkeiten</a>
+    <a href="/neuigkeiten" data-lang-link="all" data-i18n="nav_news">Neuigkeiten</a>
     <a href="#fragen" data-i18n="nav_faq">Fragen</a>
   </nav>
   <div class="nav-right">
-    <div class="lang" role="group" aria-label="Sprache">
+    <div class="lang" role="group" aria-label="Sprache" translate="no">
       <button type="button" data-lang="de">DE</button><span aria-hidden="true">/</span><button type="button" data-lang="en">EN</button><span aria-hidden="true">/</span><button type="button" data-lang="es">ES</button>
     </div>
     <a class="nav-cta" href="#beta">Beta</a>
@@ -881,7 +901,7 @@
       <div class="shards" id="shards"></div>
     </div>
     <div class="head">
-      <h1 id="headline" aria-label="Erwache im Traum." data-i18n="hero_h1" data-i18n-attr="aria-label:hero_h1">Erwache im Traum.</h1>
+      <h1 id="headline" translate="no" aria-label="Erwache im Traum." data-i18n="hero_h1" data-i18n-attr="aria-label:hero_h1">Erwache im Traum.</h1>
       <div class="streak" id="streak" aria-hidden="true"><i class="s1"></i><i class="s2"></i><i class="s3"></i><i class="s4"></i></div>
     </div>
     <div class="lower" id="lower">
@@ -1117,18 +1137,22 @@
       <div class="invite" data-reveal>
         <div class="invite-head">
           <h2 class="display" data-i18n="s11_h">Werde einer der Ersten.</h2>
-          <p class="body" data-i18n="s11_p">Die geschlossene Testphase beginnt am 19. Oktober 2026. Ich suche eine kleine Gruppe, die 14 Nächte mit Luzide schläft und mir sagt, was sie erlebt. Es ist eine Beta: Nicht alles wird rund laufen, und deine Rückmeldung bestimmt, was als Nächstes kommt. Während der Beta ist PRO für dich frei. Wer die 14 Nächte durchzieht, bekommt zum offiziellen Start einen Monat PRO dazu.</p>
+          <p class="body" data-i18n="s11_p">Die geschlossene Testphase läuft vom 19. Oktober bis 2. November 2026. Ich suche eine kleine Gruppe, die 14 Nächte mit Luzide schläft und mir sagt, was sie erlebt. Es ist eine Beta: Nicht alles wird rund laufen, und deine Rückmeldung bestimmt, was als Nächstes kommt. Während der Beta ist PRO für dich frei. Wer die 14 Nächte durchzieht, bekommt zum offiziellen Start einen Monat PRO dazu.</p>
         </div>
-        <!-- TALLY_ENDPOINT: hier später die Tally-Adresse eintragen (data-endpoint) -->
-        <form class="beta-form" id="betaForm" data-endpoint="TALLY_ENDPOINT" method="post">
-          <label class="field"><span data-i18n="fl_name">Name</span><input name="name" type="text" autocomplete="name" required></label>
-          <label class="field"><span data-i18n="fl_mail">E-Mail des Google-Kontos</span><input name="email" type="email" autocomplete="email" required><small data-i18n="fl_mail_hint">Die Einladung kommt über Google Play an dieses Konto.</small></label>
-          <label class="field"><span data-i18n="fl_phone">Handy-Modell</span><input name="phone" type="text" required></label>
-          <label class="field"><span data-i18n="fl_watch">Uhr-Modell (optional)</span><input name="watch" type="text"><small data-i18n="fl_watch_hint">Ohne Uhr testest du Tagebuch, Realitycheck-Erinnerungen und Techniken.</small></label>
+        <!-- Sendet direkt an MailerLite (Formular „Luzide Beta“) -->
+        <form class="beta-form" id="betaForm" action="https://assets.mailerlite.com/jsonp/1432497/forms/200885498316588245/subscribe" method="post" novalidate>
+          <label class="field"><span data-i18n="fl_name">Name</span><input name="fields[name]" type="text" autocomplete="name" required></label>
+          <label class="field"><span data-i18n="fl_mail">E-Mail des Google-Kontos</span><input name="fields[email]" type="email" autocomplete="email" required><small data-i18n="fl_mail_hint">Die Einladung kommt über Google Play an dieses Konto.</small></label>
+          <label class="field"><span data-i18n="fl_phone">Handy-Modell</span><input name="fields[handy_modell]" type="text" required></label>
+          <label class="field"><span data-i18n="fl_watch">Uhr-Modell (optional)</span><input name="fields[uhr_modell]" type="text"><small data-i18n="fl_watch_hint">Ohne Uhr testest du Tagebuch, Techniken und Reality-Check-Erinnerungen. Für die Signale im Traum brauchst du eine Samsung Galaxy Watch 4 oder neuer.</small></label>
           <p class="req" data-i18n="fl_req">Android-Smartphone nötig, für die Traumreise eine Samsung Galaxy Watch 4 oder neuer mit aktueller Software und Samsung Health auf dem Handy.</p>
+          <label class="consent"><input type="checkbox" name="gdpr[]" value="Email"><span data-i18n="fl_consent">Ja, ich möchte per E-Mail Neuigkeiten zu Luzide und Angebote rund ums luzide Träumen erhalten, zum Beispiel zum Kurs KLARHEIT. Abmeldung jederzeit möglich.</span></label>
+          <input type="hidden" name="fields[sprache]" value="Deutsch">
+          <input type="hidden" name="ml-submit" value="1">
+          <input type="hidden" name="anticsrf" value="true">
           <div class="submit-row">
             <button class="btn3d" type="submit" data-l1="Beta-Platz anfragen" data-l2="Anfrage senden" data-i18n-attr="data-l1:cta_beta;data-l2:cta_beta2"><span class="b3-depth" aria-hidden="true"></span><svg class="b3-splash" viewBox="0 0 342 208" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" stroke-linecap="round" d="M54.1054 99.7837C54.1054 99.7837 40.0984 90.7874 26.6893 97.6362C13.2802 104.485 1.5 97.6362 1.5 97.6362"/><path pathLength="1" stroke-linecap="round" d="M285.273 99.7841C285.273 99.7841 299.28 90.7879 312.689 97.6367C326.098 104.486 340.105 95.4893 340.105 95.4893"/><path pathLength="1" stroke-linecap="round" d="M281.133 64.9917C281.133 64.9917 287.96 49.8089 302.934 48.2295C317.908 46.6501 319.712 36.5272 319.712 36.5272" stroke-opacity=".3"/><path pathLength="1" stroke-linecap="round" d="M281.133 138.984C281.133 138.984 287.96 154.167 302.934 155.746C317.908 157.326 319.712 167.449 319.712 167.449" stroke-opacity=".3"/><path pathLength="1" stroke-linecap="round" d="M230.578 57.4476C230.578 57.4476 225.785 41.5051 236.061 30.4998C246.337 19.4945 244.686 12.9998 244.686 12.9998"/><path pathLength="1" stroke-linecap="round" d="M230.578 150.528C230.578 150.528 225.785 166.471 236.061 177.476C246.337 188.481 244.686 194.976 244.686 194.976"/><path pathLength="1" stroke-linecap="round" d="M170.392 57.0278C170.392 57.0278 173.89 42.1322 169.571 29.54C165.252 16.9478 168.751 2.05227 168.751 2.05227" stroke-opacity=".3"/><path pathLength="1" stroke-linecap="round" d="M170.392 150.948C170.392 150.948 173.89 165.844 169.571 178.436C165.252 191.028 168.751 205.924 168.751 205.924" stroke-opacity=".3"/><path pathLength="1" stroke-linecap="round" d="M112.609 57.4476C112.609 57.4476 117.401 41.5051 107.125 30.4998C96.8492 19.4945 98.5 12.9998 98.5 12.9998"/><path pathLength="1" stroke-linecap="round" d="M112.609 150.528C112.609 150.528 117.401 166.471 107.125 177.476C96.8492 188.481 98.5 194.976 98.5 194.976"/><path pathLength="1" stroke-linecap="round" d="M62.2941 64.9917C62.2941 64.9917 55.4671 49.8089 40.4932 48.2295C25.5194 46.6501 23.7159 36.5272 23.7159 36.5272" stroke-opacity=".3"/><path pathLength="1" stroke-linecap="round" d="M62.2941 145.984C62.2941 145.984 55.4671 161.167 40.4932 162.746C25.5194 164.326 23.7159 174.449 23.7159 174.449" stroke-opacity=".3"/></svg><span class="b3-face" aria-hidden="true"><svg class="b3-outline"><rect pathLength="1"/></svg><span class="b3-content"><span class="b3-chars b3-s1"></span><span class="b3-chars b3-s2"></span></span><span class="b3-icon"><i></i></span></span></button>
-            <p class="privacy" data-i18n="fl_privacy">Ich nutze deine Angaben nur, um dich zur Beta einzuladen. Danach werden sie gelöscht.</p>
+            <p class="privacy" data-i18n-html="fl_privacy">Ich nutze deine Angaben, um dich zur Beta einzuladen. Neuigkeiten bekommst du nur, wenn du das Kästchen anhakst. Mehr in der <a href="/datenschutz">Datenschutzerklärung</a>.</p>
           </div>
           <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
         </form>
@@ -1141,8 +1165,8 @@
     <div class="chapter-inner glass">
       <h2 class="display" data-reveal data-i18n="n_h">Neuigkeiten.</h2>
       <div class="news-grid" id="newsGrid"></div>
-      <button class="textlink news-more" id="newsMore" type="button" hidden data-i18n="n_more">Alle Neuigkeiten</button>
-      <script type="application/json" id="newsData">[{"date": "2026-10-07", "title": {"de": "Die Beta beginnt am 19. Oktober", "en": "The beta starts on October 19", "es": "La beta empieza el 19 de octubre"}, "text": {"de": "Die geschlossene Testphase von Luzide startet am 19. Oktober 2026. Die Gruppe bleibt klein, Anfragen sind ab jetzt möglich.", "en": "The closed test phase of Luzide starts on October 19, 2026. The group stays small, and requests are open now.", "es": "La fase de prueba cerrada de Luzide empieza el 19 de octubre de 2026. El grupo será pequeño, y ya puedes enviar tu solicitud."}, "image": null}]</script>
+      <a class="textlink news-more" id="newsMore" href="/neuigkeiten" data-lang-link="all" data-i18n="n_more">Alle Neuigkeiten</a>
+      <script type="application/json" id="newsData">[{"id": "beta-start", "date": "2026-10-07", "title": {"de": "Die Beta beginnt am 19. Oktober", "en": "The beta starts on October 19", "es": "La beta empieza el 19 de octubre"}, "text": {"de": "Die geschlossene Testphase von Luzide startet am 19. Oktober 2026. Die Gruppe bleibt klein, Anfragen sind ab jetzt möglich.", "en": "The closed test phase of Luzide starts on October 19, 2026. The group stays small, and requests are open now.", "es": "La fase de prueba cerrada de Luzide empieza el 19 de octubre de 2026. El grupo será pequeño, y ya puedes enviar tu solicitud."}, "image": null}]</script>
     </div>
   </section>
 
@@ -1152,11 +1176,11 @@
       <h2 class="display" data-reveal data-i18n="s12_h">Fragen.</h2>
       <div class="faq">
         <details class="qa" data-reveal><summary><span data-i18n="q1">Funktioniert das wirklich?</span><i aria-hidden="true"></i></summary><div class="qa-a"><p data-i18n="a1">Luzide ist ein Training, kein Schalter. Das Prinzip, ein tagsüber gelerntes Signal im REM-Schlaf abzuspielen, stammt aus der Schlafforschung und heißt Targeted Lucidity Reactivation. Wie oft es bei dir zum luziden Traum führt, hängt von deiner Übung ab und von deinen Nächten. Genau das finden wir in der Beta gemeinsam heraus.</p></div></details>
-        <details class="qa" data-reveal><summary><span data-i18n="q2">Brauche ich eine Galaxy Watch?</span><i aria-hidden="true"></i></summary><div class="qa-a"><p data-i18n="a2">Für die Traumreise mit REM-Erkennung ja, ab Galaxy Watch 4, dazu Samsung Health auf dem Handy. Auf Samsung-Handys ist es vorinstalliert, auf anderen Android-Handys lädst du es aus dem Play Store. Tagebuch und Techniken funktionieren auch nur mit dem Handy.</p></div></details>
-        <details class="qa" data-reveal><summary><span data-i18n="q10">Kann ich die Beta auch ohne Uhr testen?</span><i aria-hidden="true"></i></summary><div class="qa-a"><p data-i18n="a10">Ja. Ohne Uhr testest du Tagebuch, Realitycheck-Erinnerungen und Techniken. Das Tagestraining mit dem Klang und die Traumreise brauchen die Galaxy Watch, denn der Klang soll dich nachts genau im REM-Schlaf erreichen, und den erkennt Luzide über die Uhr.</p></div></details>
+        <details class="qa" data-reveal><summary><span data-i18n="q2">Brauche ich eine Galaxy Watch?</span><i aria-hidden="true"></i></summary><div class="qa-a"><p data-i18n="a2">Für die Traumreise und das Training mit deinem Klang ja, ab Galaxy Watch 4, dazu Samsung Health auf dem Handy. Auf Samsung-Handys ist es vorinstalliert, auf anderen Android-Handys lädst du es aus dem Play Store. Tagebuch, Techniken und Reality-Check-Erinnerungen funktionieren auch nur mit dem Handy.</p></div></details>
+        <details class="qa" data-reveal><summary><span data-i18n="q10">Kann ich die Beta auch ohne Uhr testen?</span><i aria-hidden="true"></i></summary><div class="qa-a"><p data-i18n="a10">Ja. Ohne Uhr testest du Tagebuch, Techniken und Reality-Check-Erinnerungen. Das Tagestraining mit dem Klang und die Traumreise brauchen die Galaxy Watch, denn der Klang soll dich nachts genau im REM-Schlaf erreichen, und den erkennt Luzide über die Uhr.</p></div></details>
         <details class="qa" data-reveal><summary><span data-i18n="q3">Was passiert in den ersten Nächten?</span><i aria-hidden="true"></i></summary><div class="qa-a"><p data-i18n="a3">In den ersten Nächten lauscht Luzide nur und sendet keine Signale. Oneira lernt dabei von den Schlafphasen aus Samsung Health: mindestens vier Nächte mit Samsung-Daten, bei kurzen Nächten oder viel Bewegung auch mehr. Die Lernkarte in der App zeigt dir den Stand. Sobald Oneira deine Nächte erkennt, folgen Kalibriernächte, in denen Luzide die Stärke des Signals an dich anpasst. Danach kommen die Signale im Traum.</p></div></details>
-        <details class="qa" data-reveal><summary><span data-i18n="q4">Weckt mich das Signal auf?</span><i aria-hidden="true"></i></summary><div class="qa-a"><p data-i18n="a4">Das Signal ist bewusst sanft. In den Kalibriernächten tastet sich Luzide Stufe für Stufe an deine Schwelle heran. Danach bleibt das Signal unter dieser Schwelle, und sobald du dich regst, hält Luzide inne.</p></div></details>
-        <details class="qa" data-reveal><summary><span data-i18n="q5">Was erwartest du von Testern?</span><i aria-hidden="true"></i></summary><div class="qa-a"><p data-i18n="a5">Mit Uhr: 14 Nächte mit Luzide schlafen (die ersten davon sind Lernnächte), tagsüber ein paar kurze Übungen mit dem Klang, morgens den Traum festhalten. Ohne Uhr: Tagebuch, Realitycheck-Erinnerungen und Techniken im Alltag nutzen. In beiden Fällen sagst du mir, was du erlebst, auch das, was nicht klappt.</p></div></details>
+        <details class="qa" data-reveal><summary><span data-i18n="q4">Weckt mich das Signal auf?</span><i aria-hidden="true"></i></summary><div class="qa-a"><p data-i18n="a4">Das Signal ist bewusst sanft. In drei Kalibriernächten tastet sich Luzide Stufe für Stufe an deine Schwelle heran. Danach bleibt das Signal darunter, und sobald du dich regst, hält Luzide inne.</p></div></details>
+        <details class="qa" data-reveal><summary><span data-i18n="q5">Was erwartest du von Testern?</span><i aria-hidden="true"></i></summary><div class="qa-a"><p data-i18n="a5">Mit Uhr: 14 Nächte mit Luzide schlafen (die ersten davon sind Lernnächte), tagsüber ein paar kurze Übungen mit dem Klang, morgens den Traum festhalten. Ohne Uhr: Tagebuch, Techniken und Reality-Check-Erinnerungen im Alltag nutzen. In beiden Fällen sagst du mir, was du erlebst, auch das, was nicht klappt.</p></div></details>
         <details class="qa" data-reveal><summary><span data-i18n="q6">Was kostet Luzide?</span><i aria-hidden="true"></i></summary><div class="qa-a"><p data-i18n="a6">Die Grundfunktionen sind kostenlos. Während der Beta ist PRO für dich frei. Wer die 14 Nächte durchzieht, bekommt zum offiziellen Start einen Monat PRO dazu.</p></div></details>
         <details class="qa" data-reveal><summary><span data-i18n="q7">Werden meine Daten weitergegeben?</span><i aria-hidden="true"></i></summary><div class="qa-a"><p data-i18n="a7">Nein. Sie liegen in der EU und gehören dir.</p></div></details>
         <details class="qa" data-reveal><summary><span data-i18n="q8">Ist Luzide ein Medizinprodukt?</span><i aria-hidden="true"></i></summary><div class="qa-a"><p data-i18n="a8">Nein. Luzide ist ein Training für luzides Träumen und stellt keine Diagnosen.</p></div></details>
@@ -1168,12 +1192,12 @@
 
 <footer class="foot">
   <div class="foot-inner">
-    <span class="foot-brand">Luzide</span>
+    <span class="foot-brand" translate="no">Luzide</span>
     <nav aria-label="Rechtliches">
-      <a href="impressum.html" data-i18n="ft_imp">Impressum</a>
-      <a href="datenschutz.html" data-i18n="ft_priv">Datenschutz</a>
-      <a href="nutzungsbedingungen.html" data-i18n="ft_terms">Nutzungsbedingungen</a>
-      <a href="konto-loeschen.html" data-i18n="ft_del">Konto löschen</a>
+      <a href="/impressum" data-lang-link="legal" data-i18n="ft_imp">Impressum</a>
+      <a href="/datenschutz" data-lang-link="legal" data-i18n="ft_priv">Datenschutz</a>
+      <a href="/nutzungsbedingungen" data-lang-link="legal" data-i18n="ft_terms">Nutzungsbedingungen</a>
+      <a href="/konto-loeschen" data-lang-link="legal" data-i18n="ft_del">Konto löschen</a>
     </nav>
   </div>
 </footer>
@@ -1227,7 +1251,7 @@
     f2t: 'Oneira, your personal model', f2d: 'learns from your own nights',
     f3t: 'Daytime training', f3d: 'the sound that reminds you in the dream',
     f4t: 'Dream journal', f4d: 'write or dictate, right after waking up',
-    f5t: 'Dream signs', f5d: 'Luzide counts recurring motifs in your dream journal and suggests them as dream signs (German only for now)',
+    f5t: 'Dream signs', f5d: 'Luzide counts recurring motifs in your dream journal and suggests them as dream signs (currently for dreams written in German)',
     f6t: 'Reality checks and techniques', f6d: 'a library of proven methods',
     f7t: 'Gentle alarm', f7d: 'wakes you during light sleep',
     f8t: 'KLARHEIT', f8d: 'the lucid dreaming course, right inside the app for course participants',
@@ -1256,17 +1280,16 @@
     s10_p: 'Your dream and health data are stored on servers in the EU. No ads, no selling, no sharing. Your sleep model is trained on your phone. You can delete everything at any time, with one tap in the app.',
 
     s11_h: 'Be one of the first.',
-    s11_p: 'The closed test phase begins on October 19, 2026. I am looking for a small group who will sleep 14 nights with Luzide and tell me what they experience. It is a beta: not everything will run smoothly, and your feedback decides what comes next. During the beta, PRO is free for you. Those who complete the 14 nights receive one month of PRO at the official launch.',
+    s11_p: 'The closed test phase runs from October 19 to November 2, 2026. I am looking for a small group who will sleep 14 nights with Luzide and tell me what they experience. It is a beta: not everything will run smoothly, and your feedback decides what comes next. During the beta, PRO is free for you. Those who complete the 14 nights receive one month of PRO at the official launch.',
     fl_name: 'Name',
     fl_mail: 'Email of your Google account',
     fl_phone: 'Phone model',
     fl_watch: 'Watch model (optional)',
-    fl_watch_hint: 'Without a watch you can test the journal, reality check reminders and techniques.',
+    fl_watch_hint: 'Without a watch you can test the journal, techniques and reality check reminders. For the signals in your dream you need a Samsung Galaxy Watch 4 or newer.',
     fl_req: 'Android smartphone required; for the Dream Journey a Samsung Galaxy Watch 4 or newer with up-to-date software and Samsung Health on the phone.',
-    fl_privacy: 'I only use your details to invite you to the beta. They are deleted afterwards.',
-    fs_pending: 'Registration is being connected right now. Please check back shortly.',
+    fl_privacy: 'I use your details to invite you to the beta. You only receive news if you tick the box. More in the <a href="/datenschutz?lang=en">privacy policy</a>.',
     fs_sending: 'Sending…',
-    fs_ok: 'Thank you. Your request has arrived. You will hear from me.',
+    fs_ok: 'Thank you. A short email from Joobin von Luzide is on its way (subject “Confirmation email”). Please click “Confirm your email” to complete your request. Check your spam folder too.',
     fs_err: 'That did not work. Please try again.',
     fs_invalid: 'Please fill in name, email and phone model.',
 
@@ -1276,15 +1299,15 @@
     q1: 'Does it really work?',
     a1: 'Luzide is a training, not a switch. The principle of replaying a signal learned during the day in REM sleep comes from sleep research and is called Targeted Lucidity Reactivation. How often it leads to a lucid dream for you depends on your practice and on your nights. That is exactly what we will find out together in the beta.',
     q2: 'Do I need a Galaxy Watch?',
-    a2: 'For the Dream Journey with REM detection, yes, Galaxy Watch 4 or newer, plus Samsung Health on your phone. Samsung phones have it preinstalled; on other Android phones you get it from the Play Store. Journal and techniques also work with just the phone.',
+    a2: 'For the Dream Journey and the training with your tone, yes, Galaxy Watch 4 or newer, plus Samsung Health on your phone. Samsung phones have it preinstalled; on other Android phones you get it from the Play Store. Journal, techniques and reality check reminders also work with just the phone.',
     q3: 'What happens in the first nights?',
     a3: 'In the first nights, Luzide only listens and sends no signals. Oneira learns from the sleep stages in Samsung Health during that time: at least four nights with Samsung data, more if your nights are short or restless. The learning card in the app shows you where you stand. Once Oneira recognizes your nights, calibration nights follow, in which Luzide adjusts the strength of the signal to you. After that, the signals come in the dream.',
     q4: 'Will the signal wake me up?',
-    a4: 'The signal is deliberately gentle. In the calibration nights, Luzide approaches your threshold step by step. After that, the signal stays below this threshold, and as soon as you stir, Luzide pauses.',
+    a4: 'The signal is deliberately gentle. Over three calibration nights, Luzide approaches your threshold step by step. After that, the signal stays below it, and as soon as you stir, Luzide pauses.',
     q5: 'What do you expect from testers?',
-    a5: 'With a watch: sleep 14 nights with Luzide (the first ones are learning nights), do a few short exercises with the tone during the day, capture your dream in the morning. Without a watch: use the journal, reality check reminders and techniques in your everyday life. Either way, tell me what you experience, including what does not work.',
+    a5: 'With a watch: sleep 14 nights with Luzide (the first ones are learning nights), do a few short exercises with the tone during the day, capture your dream in the morning. Without a watch: use the journal, techniques and reality check reminders in your everyday life. Either way, tell me what you experience, including what does not work.',
     q10: 'Can I test the beta without a watch?',
-    a10: 'Yes. Without a watch you test the journal, reality check reminders and techniques. Daytime training with the tone and the Dream Journey need the Galaxy Watch, because the tone is meant to reach you at night exactly in REM sleep, and Luzide detects that through the watch.',
+    a10: 'Yes. Without a watch you test the journal, techniques and reality check reminders. Daytime training with the tone and the Dream Journey need the Galaxy Watch, because the tone is meant to reach you at night exactly in REM sleep, and Luzide detects that through the watch.',
     q6: 'What does Luzide cost?',
     a6: 'The core features are free. During the beta, PRO is free for you. Those who complete the 14 nights receive one month of PRO at the official launch.',
 
@@ -1301,7 +1324,8 @@
     q9: 'Is Luzide available for iPhone?',
     a9: 'Not yet. Luzide launches on Android.',
     g_h: 'Built on my own nights.',
-    g_p: 'I am Joobin Khavand. Since 2018 I have been guiding people toward more clarity, awake and in the dream. I built Luzide because I wanted a night that reaches me inside the dream instead of waking me. The model behind it grew out of my own nights: almost every night since March 2026, with the watch on my wrist. Now it is meant to get to know yours.'
+    g_p: 'I am Joobin Khavand. Since 2018 I have been guiding people toward more clarity, awake and in the dream. I built Luzide because I wanted a night that reaches me inside the dream instead of waking me. The model behind it grew out of my own nights: almost every night since March 2026, with the watch on my wrist. Now it is meant to get to know yours.',
+    fl_consent: 'Yes, I would like to receive news about Luzide and offers around lucid dreaming by email, for example about the KLARHEIT course. You can unsubscribe at any time.'
   };
   const ES = {
     hero_h1: 'Despierta en tu sueño.',
@@ -1345,7 +1369,7 @@
     f2t: 'Oneira, tu modelo personal', f2d: 'aprende de tus propias noches',
     f3t: 'Entrenamiento diurno', f3d: 'el sonido que te recuerda en el sueño',
     f4t: 'Diario de sueños', f4d: 'escribe o dicta, justo al despertar',
-    f5t: 'Señales oníricas', f5d: 'Luzide cuenta los motivos que se repiten en tu diario de sueños y te los propone como señales oníricas (por ahora solo en alemán)',
+    f5t: 'Señales oníricas', f5d: 'Luzide cuenta los motivos que se repiten en tu diario de sueños y te los propone como señales oníricas (por ahora, para sueños escritos en alemán)',
     f6t: 'Pruebas de realidad y técnicas', f6d: 'una biblioteca de métodos probados',
     f7t: 'Despertador suave', f7d: 'te despierta en el sueño ligero',
     f8t: 'KLARHEIT', f8d: 'el curso de sueño lúcido, dentro de la app para los participantes del curso',
@@ -1375,18 +1399,17 @@
     s10_p: 'Tus datos de sueños y de salud se guardan en servidores de la UE. Sin publicidad, sin cesión a terceros, sin comercio con tus datos. Tu modelo de sueño se entrena en tu teléfono. Puedes borrarlo todo en cualquier momento, con un toque en la app.',
 
     s11_h: 'Sé de los primeros.',
-    s11_p: 'La fase de prueba cerrada empieza el 19 de octubre de 2026. Busco un grupo pequeño que duerma 14 noches con Luzide y me cuente lo que vive. Es una beta: no todo funcionará a la perfección, y tus comentarios deciden lo que viene después. Durante la beta, PRO es gratis para ti. Quien complete las 14 noches recibe un mes de PRO en el lanzamiento oficial.',
+    s11_p: 'La fase de prueba cerrada va del 19 de octubre al 2 de noviembre de 2026. Busco un grupo pequeño que duerma 14 noches con Luzide y me cuente lo que vive. Es una beta: no todo funcionará a la perfección, y tus comentarios deciden lo que viene después. Durante la beta, PRO es gratis para ti. Quien complete las 14 noches recibe un mes de PRO en el lanzamiento oficial.',
     fl_name: 'Nombre',
     fl_mail: 'Correo de tu cuenta de Google',
     fl_mail_hint: 'La invitación llega a esta cuenta a través de Google Play.',
     fl_phone: 'Modelo de teléfono',
     fl_watch: 'Modelo de reloj (opcional)',
-    fl_watch_hint: 'Sin reloj puedes probar el diario, los recordatorios de pruebas de realidad y las técnicas.',
+    fl_watch_hint: 'Sin reloj puedes probar el diario, las técnicas y los recordatorios de pruebas de realidad. Para las señales en el sueño necesitas un Samsung Galaxy Watch 4 o más reciente.',
     fl_req: 'Se necesita un smartphone Android; para el Viaje onírico, un Samsung Galaxy Watch 4 o más reciente con el software actualizado y Samsung Health en el teléfono.',
-    fl_privacy: 'Solo uso tus datos para invitarte a la beta. Después se borran.',
-    fs_pending: 'La inscripción se está conectando ahora mismo. Vuelve a mirar en un momento.',
+    fl_privacy: 'Uso tus datos para invitarte a la beta. Solo recibirás novedades si marcas la casilla. Más información en la <a href="/datenschutz?lang=en">política de privacidad</a>.',
     fs_sending: 'Enviando…',
-    fs_ok: 'Gracias. Tu solicitud ha llegado. Tendrás noticias mías.',
+    fs_ok: 'Gracias. En un momento te llega un correo breve de Joobin von Luzide (en inglés, asunto «Confirmation email»). Haz clic en «Confirm your email»; solo entonces tu solicitud estará completa. Revisa también la carpeta de spam.',
     fs_err: 'No ha funcionado. Inténtalo de nuevo, por favor.',
     fs_invalid: 'Rellena el nombre, el correo y el modelo de teléfono.',
 
@@ -1396,15 +1419,15 @@
     q1: '¿Funciona de verdad?',
     a1: 'Luzide es un entrenamiento, no un interruptor. El principio de reproducir en el sueño REM una señal aprendida durante el día procede de la investigación del sueño y se llama Targeted Lucidity Reactivation. Con qué frecuencia te lleva a un sueño lúcido depende de tu práctica y de tus noches. Eso es justo lo que vamos a descubrir juntos en la beta.',
     q2: '¿Necesito un Galaxy Watch?',
-    a2: 'Para el Viaje onírico con detección de REM, sí, a partir del Galaxy Watch 4, y además Samsung Health en el teléfono. En los teléfonos Samsung viene preinstalado; en otros teléfonos Android lo descargas de Play Store. El diario y las técnicas también funcionan solo con el teléfono.',
+    a2: 'Para el Viaje onírico y el entrenamiento con tu sonido, sí, a partir del Galaxy Watch 4, y además Samsung Health en el teléfono. En los teléfonos Samsung viene preinstalado; en otros teléfonos Android lo descargas de Play Store. El diario, las técnicas y los recordatorios de pruebas de realidad también funcionan solo con el teléfono.',
     q10: '¿Puedo probar la beta sin reloj?',
-    a10: 'Sí. Sin reloj pruebas el diario, los recordatorios de pruebas de realidad y las técnicas. El entrenamiento diurno con el sonido y el Viaje onírico necesitan el Galaxy Watch, porque el sonido debe alcanzarte de noche justo en el sueño REM, y Luzide lo detecta a través del reloj.',
+    a10: 'Sí. Sin reloj pruebas el diario, las técnicas y los recordatorios de pruebas de realidad. El entrenamiento diurno con el sonido y el Viaje onírico necesitan el Galaxy Watch, porque el sonido debe alcanzarte de noche justo en el sueño REM, y Luzide lo detecta a través del reloj.',
     q3: '¿Qué pasa en las primeras noches?',
     a3: 'En las primeras noches, Luzide solo escucha y no envía señales. Mientras tanto, Oneira aprende de las fases de sueño de Samsung Health: al menos cuatro noches con datos de Samsung, más si tus noches son cortas o inquietas. La tarjeta de aprendizaje de la app te muestra cómo vas. En cuanto Oneira reconoce tus noches, siguen las noches de calibración, en las que Luzide ajusta la intensidad de la señal a ti. Después llegan las señales en el sueño.',
     q4: '¿Me despertará la señal?',
-    a4: 'La señal es suave a propósito. En las noches de calibración, Luzide se acerca paso a paso a tu umbral. Después, la señal se queda por debajo de ese umbral, y en cuanto te mueves, Luzide se detiene.',
+    a4: 'La señal es suave a propósito. Durante tres noches de calibración, Luzide se acerca paso a paso a tu umbral. Después, la señal se queda por debajo, y en cuanto te mueves, Luzide se detiene.',
     q5: '¿Qué esperas de quienes prueben la beta?',
-    a5: 'Con reloj: dormir 14 noches con Luzide (las primeras son noches de aprendizaje), hacer durante el día unos ejercicios breves con el sonido y anotar tu sueño por la mañana. Sin reloj: usar el diario, los recordatorios de pruebas de realidad y las técnicas en tu día a día. En ambos casos me cuentas lo que vives, también lo que no funciona.',
+    a5: 'Con reloj: dormir 14 noches con Luzide (las primeras son noches de aprendizaje), hacer durante el día unos ejercicios breves con el sonido y anotar tu sueño por la mañana. Sin reloj: usar el diario, las técnicas y los recordatorios de pruebas de realidad en tu día a día. En ambos casos me cuentas lo que vives, también lo que no funciona.',
     q6: '¿Cuánto cuesta Luzide?',
     a6: 'Las funciones básicas son gratuitas. Durante la beta, PRO es gratis para ti. Quien complete las 14 noches recibe un mes de PRO en el lanzamiento oficial.',
     q7: '¿Se comparten mis datos?',
@@ -1420,13 +1443,13 @@
     ft_imp: 'Aviso legal', ft_priv: 'Privacidad', ft_terms: 'Condiciones de uso', ft_del: 'Eliminar cuenta',
     title: 'Luzide · Despierta en tu sueño',
     desc: 'Luzide aprende de tus noches cuándo sueñas, y te alcanza justo entonces con el sonido que entrenaste durante el día. Para Android y Galaxy Watch. Beta desde el 19 de octubre de 2026.',
-    hero_req: 'Android · Galaxy Watch 4 o más reciente · Beta desde el 19 de octubre de 2026'
+    hero_req: 'Android · Galaxy Watch 4 o más reciente · Beta desde el 19 de octubre de 2026',
+    fl_consent: 'Sí, quiero recibir por correo novedades sobre Luzide y ofertas sobre el sueño lúcido, por ejemplo sobre el curso KLARHEIT. Puedes darte de baja en cualquier momento.'
   };
   const DE_UI = {
     s5_btn_stop: 'Anhalten',
-    fs_pending: 'Die Anmeldung wird gerade angebunden. Bitte schau gleich noch einmal vorbei.',
     fs_sending: 'Wird gesendet…',
-    fs_ok: 'Danke. Deine Anfrage ist angekommen. Du hörst von mir.',
+    fs_ok: 'Danke. Gleich kommt eine kurze Mail von Joobin von Luzide (auf Englisch, Betreff „Confirmation email“). Bitte klick dort auf „Confirm your email“, erst dann ist deine Anfrage vollständig. Schau auch im Spam-Ordner nach.',
     fs_err: 'Das hat nicht geklappt. Bitte versuche es noch einmal.',
     fs_invalid: 'Bitte fülle Name, E-Mail und Handy-Modell aus.',
     n_more: 'Alle Neuigkeiten', n_less: 'Weniger anzeigen', n_empty: 'Neuigkeiten erscheinen hier in Kürze.'
@@ -1449,6 +1472,13 @@
     document.title = D.title;
     const md = document.querySelector('meta[name="description"]'); if (md) md.setAttribute('content', D.desc);
   }
+
+  document.querySelectorAll('a[data-lang-link]').forEach(a => {
+    const l = a.dataset.langLink === 'legal' ? (lang === 'de' ? 'de' : 'en') : lang;
+    if (l === 'de') return;
+    const [path, hash] = a.getAttribute('href').split('#');
+    a.setAttribute('href', path + (path.includes('?') ? '&' : '?') + 'lang=' + l + (hash ? '#' + hash : ''));
+  });
 
   document.querySelectorAll('.lang button').forEach(b => {
     b.classList.toggle('on', b.dataset.lang === lang);
@@ -2127,49 +2157,62 @@ void main(){ gl_Position = vec4(position, 0., 1.); }`;
   const featIO = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) activate(e.target); }), { rootMargin: '-45% 0px -45% 0px' });
   items.forEach(li => featIO.observe(li));
 
-  /* ===== Abschnitt 11: Formular (Tally folgt) ===== */
+  /* ===== Abschnitt 11: Formular sendet direkt an MailerLite (kein fremdes Skript auf der Seite) ===== */
   const form = document.getElementById('betaForm');
   const status = document.getElementById('formStatus');
+  const LANG_NAME = { de: 'Deutsch', en: 'English', es: 'Español' };
+  form.querySelector('[name="fields[sprache]"]').value = LANG_NAME[window.LUZ_LANG] || 'Deutsch';
+  let sending = false;
+  async function sendToMailerLite(data) {
+    try {
+      const r = await fetch(form.action, { method: 'POST', body: data });
+      let j = null;
+      try { j = await r.json(); } catch (e) {}
+      if (j && typeof j.success === 'boolean') return j.success;
+      return r.ok;
+    } catch (e) {
+      // Antwort nicht lesbar. Ein Formular-POST braucht keine Vorab-Anfrage, er ist also abgeschickt,
+      // sobald das Gerät online ist. Nur ohne Netz gilt er als gescheitert.
+      return navigator.onLine !== false;
+    }
+  }
   form.addEventListener('submit', async ev => {
     ev.preventDefault();
+    if (sending) return;
     const d = new FormData(form);
-    if (!d.get('name') || !d.get('email') || !d.get('phone') || !form.checkValidity()) { status.textContent = T('fs_invalid'); form.reportValidity(); return; }
-    const endpoint = form.dataset.endpoint;
-    if (!endpoint || endpoint === 'TALLY_ENDPOINT') { status.textContent = T('fs_pending'); return; }
+    const val = k => (d.get(k) || '').toString().trim();
+    if (!val('fields[name]') || !val('fields[email]') || !val('fields[handy_modell]') || !form.checkValidity()) { status.textContent = T('fs_invalid'); form.reportValidity(); return; }
+    if (!val('fields[uhr_modell]')) d.set('fields[uhr_modell]', 'keine');   // falls das Feld bei MailerLite noch Pflicht ist
+    sending = true;
     status.textContent = T('fs_sending');
-    try {
-      const r = await fetch(endpoint, { method: 'POST', body: d });
-      if (!r.ok) throw new Error(r.status);
-      form.reset(); status.textContent = T('fs_ok');
-    } catch (e) { status.textContent = T('fs_err'); }
+    const ok = await sendToMailerLite(d);
+    sending = false;
+    if (ok) { form.reset(); form.querySelector('[name="fields[sprache]"]').value = LANG_NAME[window.LUZ_LANG] || 'Deutsch'; status.textContent = T('fs_ok'); }
+    else status.textContent = T('fs_err');
   });
 
-  /* ===== Neuigkeiten aus news.json ===== */
+  /* ===== Neuigkeiten: auf der Startseite nur der neueste Beitrag ===== */
   const grid = document.getElementById('newsGrid');
-  const more = document.getElementById('newsMore');
-  const SHOW = 3;
-  let expanded = false, posts = [];
+  let posts = [];
   try { posts = JSON.parse(document.getElementById('newsData').textContent); } catch (e) {}
   const lang = window.LUZ_LANG;
   const pick = v => (v && typeof v === 'object') ? (v[lang] || (lang !== 'de' && v.en) || v.de || '') : (v || '');
   const fmt = iso => { try { return new Date(iso + 'T12:00:00').toLocaleDateString({ en: 'en-GB', es: 'es-ES' }[lang] || 'de-DE', { day: 'numeric', month: 'long', year: 'numeric' }); } catch (e) { return iso; } };
+  const newsUrl = id => '/neuigkeiten' + (lang !== 'de' ? '?lang=' + lang : '') + (id ? '#' + id : '');
   function renderNews() {
     const list = [...posts].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
     grid.innerHTML = '';
-    if (!list.length) { const p = document.createElement('p'); p.className = 'body'; p.textContent = T('n_empty'); grid.appendChild(p); }
-    (expanded ? list : list.slice(0, SHOW)).forEach(n => {
-      const a = document.createElement('article'); a.className = 'news-card';
-      if (n.image) { const im = document.createElement('img'); im.src = n.image; im.alt = ''; im.loading = 'lazy'; im.onerror = () => im.remove(); a.appendChild(im); }
-      const t = document.createElement('time'); t.dateTime = n.date; t.textContent = fmt(n.date);
-      const h = document.createElement('h3'); h.textContent = pick(n.title);
-      const p = document.createElement('p'); p.textContent = pick(n.text);
-      a.append(t, h, p); grid.appendChild(a);
-    });
-    grid.classList.toggle('single', list.length === 1);
-    more.hidden = list.length <= SHOW;
-    more.textContent = expanded ? T('n_less') : T('n_more');
+    grid.classList.add('single');
+    if (!list.length) { const p = document.createElement('p'); p.className = 'body'; p.textContent = T('n_empty'); grid.appendChild(p); return; }
+    const n = list[0];
+    const a = document.createElement('article'); a.className = 'news-card';
+    const link = document.createElement('a'); link.className = 'news-link'; link.href = newsUrl(n.id || n.date);
+    if (n.image) { const im = document.createElement('img'); im.src = n.image; im.alt = ''; im.loading = 'lazy'; im.onerror = () => im.remove(); link.appendChild(im); }
+    const t = document.createElement('time'); t.dateTime = n.date; t.textContent = fmt(n.date);
+    const h = document.createElement('h3'); h.textContent = pick(n.title);
+    const p = document.createElement('p'); p.textContent = pick(n.text);
+    link.append(t, h); a.append(link, p); grid.appendChild(a);
   }
-  more.addEventListener('click', () => { expanded = !expanded; renderNews(); });
   renderNews();
   // Auf GitHub Pages: die Datei news.json ersetzt die eingebettete Fassung
   if (location.protocol.startsWith('http')) {

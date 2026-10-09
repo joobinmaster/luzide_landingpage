@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="de" translate="no">
+<head>
+<meta charset="utf-8">
+<meta name="google" content="notranslate">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Neuigkeiten | Luzide</title>
+<meta name="description" content="Neuigkeiten zu Luzide, der App für luzides Träumen mit Galaxy Watch.">
+<link rel="canonical" href="https://luzide.app/neuigkeiten">
+<link rel="alternate" hreflang="de" href="https://luzide.app/neuigkeiten?lang=de">
+<link rel="alternate" hreflang="en" href="https://luzide.app/neuigkeiten?lang=en">
+<link rel="alternate" hreflang="es" href="https://luzide.app/neuigkeiten?lang=es">
+<link rel="alternate" hreflang="x-default" href="https://luzide.app/neuigkeiten">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Luzide">
+<meta property="og:url" content="https://luzide.app/neuigkeiten">
+<meta property="og:title" content="Neuigkeiten | Luzide">
+<style>
+@font-face{font-family:"Cormorant Garamond";font-weight:300;font-style:normal;font-display:swap;src:url("fonts/cormorant-garamond-latin-300-normal.woff2") format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-weight:400;font-style:normal;font-display:swap;src:url("fonts/cormorant-garamond-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Space Grotesk";font-weight:400;font-style:normal;font-display:swap;src:url("fonts/space-grotesk-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Space Grotesk";font-weight:500;font-style:normal;font-display:swap;src:url("fonts/space-grotesk-latin-500-normal.woff2") format("woff2")}
+:root{--bg:#0F0B09;--text:#F2E9DA;--muted:rgba(242,233,218,.68);--accent:#B08A57;--line:rgba(176,138,87,.28)}
+*{box-sizing:border-box}
+html{background:var(--bg);color:var(--text);-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;min-height:100vh;padding:1.5rem 1.25rem 4rem;color:var(--text);font-family:"Space Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:1rem;line-height:1.65;
+  background:radial-gradient(120% 60% at 50% -10%,rgba(176,138,87,.16),transparent 60%),linear-gradient(180deg,#140F0C 0%,var(--bg) 40%)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.wrap{max-width:760px;margin:0 auto}
+.leiste{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.75rem 1.5rem;margin-bottom:clamp(2.5rem,8vh,5rem);font-size:.95rem}
+.brand{font-family:"Cormorant Garamond",Georgia,serif;font-size:1.6rem;font-weight:400;color:var(--text);text-decoration:none;letter-spacing:.01em}
+.brand:hover{color:var(--accent)}
+.sprache{display:inline-flex;align-items:center;gap:4px;font-size:.85rem;letter-spacing:.06em}
+.sprache a{color:var(--muted);text-decoration:none;padding:4px 3px}
+.sprache a:hover{color:var(--text)}
+.sprache a[aria-current="true"]{color:var(--text);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--accent)}
+.sprache span{color:var(--accent)}
+a{color:var(--accent);text-underline-offset:.15em}
+a:focus-visible{outline:2px solid var(--text);outline-offset:3px;border-radius:2px}
+h1{font-family:"Cormorant Garamond",Georgia,serif;font-weight:300;font-size:clamp(2.6rem,8vw,4.2rem);line-height:1.05;margin:0 0 .6rem}
+.intro{color:var(--muted);margin:0 0 clamp(2rem,6vh,3.5rem)}
+.liste{display:grid;gap:clamp(18px,3vw,28px)}
+.post{scroll-margin-top:24px;padding:clamp(22px,4vw,34px);border-radius:22px;background:linear-gradient(180deg,rgba(255,248,236,.06),rgba(255,248,236,.025));border:1px solid var(--line);box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 24px 60px rgba(0,0,0,.35);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+.post:target{border-color:rgba(176,138,87,.75);box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 0 0 3px rgba(176,138,87,.18),0 24px 60px rgba(0,0,0,.35)}
+.post time{display:block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:.5rem}
+.post h2{font-family:"Cormorant Garamond",Georgia,serif;font-weight:400;font-size:clamp(1.6rem,4.5vw,2.1rem);line-height:1.15;margin:0 0 .75rem}
+.post h2 a{color:var(--text);text-decoration:none}
+.post h2 a:hover{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:5px}
+.post p{margin:0;color:var(--muted)}
+.post img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:14px;margin:0 0 1.1rem}
+.post .teilen{margin-top:1rem;font-size:.85rem;background:none;border:0;padding:0;color:var(--accent);font:inherit;font-size:.85rem;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.post .teilen:hover{color:var(--text)}
+.leer{color:var(--muted)}
+.fuss{margin-top:clamp(3rem,10vh,5rem);padding-top:1.25rem;border-top:1px solid var(--line);font-size:.92rem}
+.fuss a{display:inline-block;margin:0 1.25rem .5rem 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="leiste">
+    <a class="brand" href="/" data-home translate="no">Luzide</a>
+    <nav class="sprache" aria-label="Sprache" translate="no"><a href="?lang=de" lang="de" hreflang="de">DE</a><span aria-hidden="true">/</span><a href="?lang=en" lang="en" hreflang="en">EN</a><span aria-hidden="true">/</span><a href="?lang=es" lang="es" hreflang="es">ES</a></nav>
+  </div>
+  <main>
+    <h1 data-t="h">Neuigkeiten.</h1>
+    <p class="intro" data-t="intro">Was sich bei Luzide tut, neueste Beiträge zuerst.</p>
+    <div class="liste" id="liste"></div>
+  </main>
+  <nav class="fuss" aria-label="Rechtliches">
+    <a href="/" data-home data-t="home">Zur Startseite</a>
+    <a href="/impressum" data-legal data-t="imp">Impressum</a>
+    <a href="/datenschutz" data-legal data-t="priv">Datenschutz</a>
+    <a href="/nutzungsbedingungen" data-legal data-t="terms">Nutzungsbedingungen</a>
+    <a href="/konto-loeschen" data-legal data-t="del">Konto löschen</a>
+  </nav>
+</div>
+<script type="application/json" id="newsData">[{"id": "beta-start", "date": "2026-10-07", "title": {"de": "Die Beta beginnt am 19. Oktober", "en": "The beta starts on October 19", "es": "La beta empieza el 19 de octubre"}, "text": {"de": "Die geschlossene Testphase von Luzide startet am 19. Oktober 2026. Die Gruppe bleibt klein, Anfragen sind ab jetzt möglich.", "en": "The closed test phase of Luzide starts on October 19, 2026. The group stays small, and requests are open now.", "es": "La fase de prueba cerrada de Luzide empieza el 19 de octubre de 2026. El grupo será pequeño, y ya puedes enviar tu solicitud."}, "image": null}]</script>
+<script>
+(() => {
+  const T = {
+    de: { title: 'Neuigkeiten | Luzide', desc: 'Neuigkeiten zu Luzide, der App für luzides Träumen mit Galaxy Watch.', h: 'Neuigkeiten.', intro: 'Was sich bei Luzide tut, neueste Beiträge zuerst.', empty: 'Neuigkeiten erscheinen hier in Kürze.', share: 'Link kopieren', copied: 'Link kopiert', home: 'Zur Startseite', imp: 'Impressum', priv: 'Datenschutz', terms: 'Nutzungsbedingungen', del: 'Konto löschen', nav: 'Sprache', legal: 'Rechtliches' },
+    en: { title: 'News | Luzide', desc: 'News about Luzide, the lucid dreaming app for Galaxy Watch.', h: 'News.', intro: 'What is happening at Luzide, newest first.', empty: 'News will appear here soon.', share: 'Copy link', copied: 'Link copied', home: 'Back to the home page', imp: 'Imprint', priv: 'Privacy', terms: 'Terms of use', del: 'Delete account', nav: 'Language', legal: 'Legal' },
+    es: { title: 'Novedades | Luzide', desc: 'Novedades de Luzide, la app de sueño lúcido para Galaxy Watch.', h: 'Novedades.', intro: 'Lo que pasa en Luzide, lo más reciente primero.', empty: 'Pronto aparecerán novedades aquí.', share: 'Copiar enlace', copied: 'Enlace copiado', home: 'Volver a la página principal', imp: 'Aviso legal', priv: 'Privacidad', terms: 'Condiciones de uso', del: 'Eliminar cuenta', nav: 'Idioma', legal: 'Legal' }
+  };
+  const q = new URLSearchParams(location.search).get('lang');
+  const nl = (navigator.language || 'de').toLowerCase();
+  const lang = ['de', 'en', 'es'].includes(q) ? q : (nl.startsWith('de') ? 'de' : nl.startsWith('es') ? 'es' : 'en');
+  const t = T[lang];
+  document.documentElement.lang = lang;
+  document.title = t.title;
+  document.querySelector('meta[name="description"]').setAttribute('content', t.desc);
+  document.querySelectorAll('[data-t]').forEach(el => { el.textContent = t[el.dataset.t]; });
+  document.querySelector('.sprache').setAttribute('aria-label', t.nav);
+  document.querySelector('.fuss').setAttribute('aria-label', t.legal);
+  document.querySelectorAll('.sprache a').forEach(a => { if (a.lang === lang) a.setAttribute('aria-current', 'true'); });
+  if (lang !== 'de') {
+    document.querySelectorAll('[data-home]').forEach(a => a.href = '/?lang=' + lang);
+    document.querySelectorAll('[data-legal]').forEach(a => a.href = a.getAttribute('href') + '?lang=en');
+  }
+
+  const pick = v => (v && typeof v === 'object') ? (v[lang] || (lang !== 'de' && v.en) || v.de || '') : (v || '');
+  const fmt = iso => { try { return new Date(iso + 'T12:00:00').toLocaleDateString({ en: 'en-GB', es: 'es-ES' }[lang] || 'de-DE', { day: 'numeric', month: 'long', year: 'numeric' }); } catch (e) { return iso; } };
+  const slug = n => (n.id || n.date || '').toString().toLowerCase().replace(/[^a-z0-9-]+/g, '-');
+  const liste = document.getElementById('liste');
+  let posts = [];
+  try { posts = JSON.parse(document.getElementById('newsData').textContent); } catch (e) {}
+
+  function render() {
+    const list = [...posts].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    liste.innerHTML = '';
+    if (!list.length) { const p = document.createElement('p'); p.className = 'leer'; p.textContent = t.empty; liste.appendChild(p); return; }
+    const used = {};
+    list.forEach(n => {
+      let id = slug(n); if (used[id]) id += '-' + (++used[id]); else used[id] = 1;
+      const art = document.createElement('article'); art.className = 'post'; art.id = id;
+      if (n.image) { const im = document.createElement('img'); im.src = n.image; im.alt = ''; im.loading = 'lazy'; im.onerror = () => im.remove(); art.appendChild(im); }
+      const time = document.createElement('time'); time.dateTime = n.date; time.textContent = fmt(n.date);
+      const h = document.createElement('h2'); const a = document.createElement('a'); a.href = '#' + id; a.textContent = pick(n.title); h.appendChild(a);
+      const p = document.createElement('p'); p.textContent = pick(n.text);
+      const share = document.createElement('button'); share.type = 'button'; share.className = 'teilen'; share.textContent = t.share;
+      share.addEventListener('click', async () => {
+        const url = 'https://luzide.app/neuigkeiten' + (lang !== 'de' ? '?lang=' + lang : '') + '#' + id;
+        try { await navigator.clipboard.writeText(url); share.textContent = t.copied; setTimeout(() => share.textContent = t.share, 2000); }
+        catch (e) { location.hash = id; }
+      });
+      art.append(time, h, p, share);
+      liste.appendChild(art);
+    });
+    if (location.hash) { const el = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (el) el.scrollIntoView(); }
+  }
+  render();
+  // Auf GitHub Pages: die Datei news.json ersetzt die eingebettete Fassung
+  if (location.protocol.startsWith('http')) {
+    fetch('news.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(j => { if (Array.isArray(j)) { posts = j; render(); } }).catch(() => {});
+  }
+})();
+</script>
+</body>
+</html>
