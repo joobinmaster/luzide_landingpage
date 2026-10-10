@@ -851,6 +851,8 @@
   .news-card a.news-link { color: inherit; text-decoration: none; }
   .news-card a.news-link:hover h3 { text-decoration: underline; text-decoration-color: rgba(176,138,87,.7); text-underline-offset: 4px; }
   a.news-more { display: inline-block; color: var(--ink); text-decoration: none; }
+  .tone-ph { display: none !important; }   /* interner Hinweis auf den fehlenden Klang, nicht öffentlich */
+  .tone-note { margin: 14px auto 0; max-width: 34em; font-size: .88rem; line-height: 1.55; color: var(--muted); }
 </style>
 </head>
 <body>
@@ -1000,6 +1002,7 @@
           <span class="tone-icon" aria-hidden="true"><i></i><i></i><i></i><b></b></span>
           <span data-i18n="s5_btn">Den Klang anhören</span>
         </button>
+        <p class="tone-note" data-reveal style="--d: .45s" data-i18n="s5_note">In der App wählst du deinen Klang aus mehreren aus. Später kannst du auch einen eigenen Klang verwenden.</p>
         <span class="tone-ph" id="tonePh" hidden>audio/klang.mp3 · Platzhalterklang</span>
       </div>
       <figure class="media scene-video train-video" style="--ratio: 16 / 9; --d: .3s" data-reveal>
@@ -1240,6 +1243,7 @@
     s5_p: 'During the day you practice short moments of clarity with Luzide, always with the same sound. Your brain learns: this sound means clarity. At night, in the dream, it recognizes the sound and asks the one question: am I dreaming?',
     s5_btn: 'Hear the tone',
     s5_btn_stop: 'Stop',
+    s5_note: 'In the app you choose your sound from several options. Later you\'ll also be able to use your own.',
     s5_video: 'A runner leaps over a sofa, a bathtub and a piano on a road in the sky and stops at the edge',
     train_alt: 'A hand holding a phone in warm daylight',
 
@@ -1358,6 +1362,7 @@
     s5_p: 'Durante el día practicas con Luzide breves momentos de claridad, siempre con el mismo sonido. Tu cerebro aprende: este sonido significa claridad. Por la noche, en el sueño, lo reconoce y se hace la única pregunta: ¿estoy soñando?',
     s5_btn: 'Escuchar el sonido',
     s5_btn_stop: 'Detener',
+    s5_note: 'En la app eliges tu sonido entre varios. Más adelante también podrás usar uno propio.',
     s5_video: 'Un corredor salta por encima de un sofá, una bañera y un piano en una carretera en el cielo y se detiene en el borde',
     train_alt: 'Una mano sostiene un teléfono a la luz cálida del día',
 
